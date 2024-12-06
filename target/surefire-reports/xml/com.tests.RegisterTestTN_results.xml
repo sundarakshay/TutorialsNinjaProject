@@ -4,104 +4,104 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="15.561">
+           time="17.334">
     <properties></properties>
 
 
 
             <testcase
-                name="verifyRegisterButtonWithoutPassword"
-                time="0.837"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
-                name="verifyRegisterButtonWithoutEmail"
-                time="0.857"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
-                name="verifyRegisterButtonWithAllDetails"
-                time="2.070"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
-                name="verifyRegisterButtonWithLastName"
-                time="0.755"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
-                name="verifyRegisterButtonWithoutFirstname"
-                time="1.056"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
-                name="verifyRegisterButtonWithFirstName"
-                time="0.640"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
-                name="verifyRegisterButtonWithEmail"
-                time="0.766"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
                 name="verifyRegisterButtonWithPassword"
-                time="0.615"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
-                name="verifyRegisterButtonWithPrivacyPolicy"
-                time="1.717"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
-                name="verifyRegisterButtonWithoutPrivacyPolicy"
-                time="0.890"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
-                name="verifyRegisterButtonWithoutConfirmPassword"
-                time="0.835"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
-                name="verifyRegisterButtonWithTelephone"
-                time="0.648"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
-                name="verifyRegisterButtonWithoutTelephone"
-                time="0.933"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
-                name="verifyRegisterButtonWithConfirmPassword"
-                time="0.808"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
-                name="verifyRegisterButtonWithoutAnyDetails"
-                time="1.080"
+                time="0.685"
                 classname="com.tests.RegisterTestTN">
             </testcase>
             <testcase
                 name="verifyTitleDisplayedTest"
-                time="0.037"
+                time="0.046"
                 classname="com.tests.RegisterTestTN">
             </testcase>
             <testcase
-                name="verifyRegisterAccountSubTitleTest"
-                time="0.051"
-                classname="com.tests.RegisterTestTN">
-            </testcase>
-            <testcase
-                name="verifyRegisterAccountMainTitleTest"
-                time="0.096"
+                name="verifyRegisterButtonWithoutPrivacyPolicy"
+                time="1.031"
                 classname="com.tests.RegisterTestTN">
             </testcase>
             <testcase
                 name="verifyRegisterButtonWithoutLastname"
-                time="0.870"
+                time="0.998"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterButtonWithFirstName"
+                time="1.068"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterButtonWithEmail"
+                time="0.815"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterButtonWithLastName"
+                time="0.827"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterButtonWithoutEmail"
+                time="1.134"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterAccountMainTitleTest"
+                time="0.056"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterButtonWithConfirmPassword"
+                time="0.845"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterButtonWithPrivacyPolicy"
+                time="1.070"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterButtonWithoutTelephone"
+                time="1.064"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterButtonWithoutConfirmPassword"
+                time="0.997"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterButtonWithoutAnyDetails"
+                time="0.968"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterButtonWithTelephone"
+                time="0.748"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterButtonWithoutFirstname"
+                time="1.213"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterButtonWithoutPassword"
+                time="1.388"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterButtonWithAllDetails"
+                time="2.349"
+                classname="com.tests.RegisterTestTN">
+            </testcase>
+            <testcase
+                name="verifyRegisterAccountSubTitleTest"
+                time="0.032"
                 classname="com.tests.RegisterTestTN">
             </testcase>
 </testsuite>

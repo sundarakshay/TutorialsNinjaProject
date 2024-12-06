@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>48/1/3</td>
+<td>Tests passed/Failed/Skipped:</td><td>49/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 05 21:03:25 CST 2024</td>
+<td>Started on:</td><td>Thu Dec 05 21:20:11 CST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>461 seconds (461490 ms)</td>
+<tr><td>Total time:</td><td>567 seconds (567079 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,62 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest()'><b>verifyLoginButtonWithInvalidDetailsTest</b><br>Test class: com.tests.LoginTestTN</td>
-<td><div><pre>java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-	at com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest(LoginTestTN.java:70)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1224475153", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1224475153'><pre>java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest(LoginTestTN.java:70)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>com.tests.LoginTestTN@50029372</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -132,192 +76,57 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutPassword()'><b>verifyRegisterButtonWithoutPassword</b><br>Test class: com.tests.RegisterTestTN</td>
+<td title='com.tests.WishListTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.WishListTestTN</td>
 <td></td>
 <td>0</td>
-<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
-<tr>
-<td title='com.tests.LoginTestTN.verifyLoginButtonWithAllDetailsTest()'><b>verifyLoginButtonWithAllDetailsTest</b><br>Test class: com.tests.LoginTestTN</td>
-<td></td>
-<td>1</td>
-<td>com.tests.LoginTestTN@50029372</td></tr>
-<tr>
-<td title='com.tests.OrderHistoryTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.OrderHistoryTestTN</td>
-<td></td>
-<td>0</td>
-<td>com.tests.OrderHistoryTestTN@28194a50</td></tr>
-<tr>
-<td title='com.tests.LogoutTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.LogoutTestTN<br>Parameters: sundarakshayqq@gmail.com, tutorialsninja@123</td>
-<td></td>
-<td>2</td>
-<td>com.tests.LogoutTestTN@5038d0b5</td></tr>
-<tr>
-<td title='com.tests.ProductReturnTestTN.verifyProductReturnTest()'><b>verifyProductReturnTest</b><br>Test class: com.tests.ProductReturnTestTN</td>
-<td></td>
-<td>3</td>
-<td>com.tests.ProductReturnTestTN@7f2cfe3f</td></tr>
-<tr>
-<td title='com.tests.ShoppingCartTestTN.verifyUpdateQuantityTest()'><b>verifyUpdateQuantityTest</b><br>Test class: com.tests.ShoppingCartTestTN</td>
-<td></td>
-<td>1</td>
-<td>com.tests.ShoppingCartTestTN@1a5b6f42</td></tr>
-<tr>
-<td title='com.tests.WishListTestTN.verifyAddToWishListTest()'><b>verifyAddToWishListTest</b><br>Test class: com.tests.WishListTestTN</td>
-<td></td>
-<td>1</td>
 <td>com.tests.WishListTestTN@50f6ac94</td></tr>
-<tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutEmail()'><b>verifyRegisterButtonWithoutEmail</b><br>Test class: com.tests.RegisterTestTN</td>
-<td></td>
-<td>0</td>
-<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
-<tr>
-<td title='com.tests.HomeTestTN.verifyValidsearchFeature()'><b>verifyValidsearchFeature</b><br>Test class: com.tests.HomeTestTN</td>
-<td></td>
-<td>1</td>
-<td>com.tests.HomeTestTN@e3b3b2f</td></tr>
-<tr>
-<td title='com.tests.ShoppingCartTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.ShoppingCartTestTN</td>
-<td></td>
-<td>0</td>
-<td>com.tests.ShoppingCartTestTN@1a5b6f42</td></tr>
-<tr>
-<td title='com.tests.ProductReturnTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.ProductReturnTestTN</td>
-<td></td>
-<td>2</td>
-<td>com.tests.ProductReturnTestTN@7f2cfe3f</td></tr>
-<tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithAllDetails()'><b>verifyRegisterButtonWithAllDetails</b><br>Test class: com.tests.RegisterTestTN</td>
-<td></td>
-<td>2</td>
-<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
-<tr>
-<td title='com.tests.LoginTestTN.verifyLoginSubTitleTest()'><b>verifyLoginSubTitleTest</b><br>Test class: com.tests.LoginTestTN</td>
-<td></td>
-<td>0</td>
-<td>com.tests.LoginTestTN@50029372</td></tr>
-<tr>
-<td title='com.tests.ShoppingCartTestTN.verifyCheckoutButtonTest()'><b>verifyCheckoutButtonTest</b><br>Test class: com.tests.ShoppingCartTestTN</td>
-<td></td>
-<td>0</td>
-<td>com.tests.ShoppingCartTestTN@1a5b6f42</td></tr>
-<tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithLastName()'><b>verifyRegisterButtonWithLastName</b><br>Test class: com.tests.RegisterTestTN</td>
-<td></td>
-<td>0</td>
-<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
-<tr>
-<td title='com.tests.LoginTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.LoginTestTN</td>
-<td></td>
-<td>0</td>
-<td>com.tests.LoginTestTN@50029372</td></tr>
-<tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutFirstname()'><b>verifyRegisterButtonWithoutFirstname</b><br>Test class: com.tests.RegisterTestTN</td>
-<td></td>
-<td>1</td>
-<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
-<tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithFirstName()'><b>verifyRegisterButtonWithFirstName</b><br>Test class: com.tests.RegisterTestTN</td>
-<td></td>
-<td>0</td>
-<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
-<tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithEmail()'><b>verifyRegisterButtonWithEmail</b><br>Test class: com.tests.RegisterTestTN</td>
-<td></td>
-<td>0</td>
-<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
-<tr>
-<td title='com.tests.ShoppingCartTestTN.verifyEstimateShippingAndTexasTest()'><b>verifyEstimateShippingAndTexasTest</b><br>Test class: com.tests.ShoppingCartTestTN</td>
-<td></td>
-<td>18</td>
-<td>com.tests.ShoppingCartTestTN@1a5b6f42</td></tr>
 <tr>
 <td title='com.tests.RegisterTestTN.verifyRegisterButtonWithPassword()'><b>verifyRegisterButtonWithPassword</b><br>Test class: com.tests.RegisterTestTN</td>
 <td></td>
 <td>0</td>
 <td>com.tests.RegisterTestTN@4470fbd6</td></tr>
 <tr>
-<td title='com.tests.HomeTestTN.verifyInvalidsearchFeature()'><b>verifyInvalidsearchFeature</b><br>Test class: com.tests.HomeTestTN</td>
-<td></td>
-<td>1</td>
-<td>com.tests.HomeTestTN@e3b3b2f</td></tr>
-<tr>
-<td title='com.tests.CheckoutTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.CheckoutTestTN</td>
-<td></td>
-<td>4</td>
-<td>com.tests.CheckoutTestTN@6cc4cdb9</td></tr>
-<tr>
-<td title='com.tests.HomeTestTN.verifyItemCartScenarioEmptyTest()'><b>verifyItemCartScenarioEmptyTest</b><br>Test class: com.tests.HomeTestTN</td>
+<td title='com.tests.RegisterTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.RegisterTestTN</td>
 <td></td>
 <td>0</td>
-<td>com.tests.HomeTestTN@e3b3b2f</td></tr>
-<tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithPrivacyPolicy()'><b>verifyRegisterButtonWithPrivacyPolicy</b><br>Test class: com.tests.RegisterTestTN</td>
-<td></td>
-<td>1</td>
 <td>com.tests.RegisterTestTN@4470fbd6</td></tr>
-<tr>
-<td title='com.tests.CheckoutTestTN.verifyCheckOutFlowTest()'><b>verifyCheckOutFlowTest</b><br>Test class: com.tests.CheckoutTestTN</td>
-<td></td>
-<td>10</td>
-<td>com.tests.CheckoutTestTN@6cc4cdb9</td></tr>
 <tr>
 <td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutPrivacyPolicy()'><b>verifyRegisterButtonWithoutPrivacyPolicy</b><br>Test class: com.tests.RegisterTestTN</td>
 <td></td>
-<td>0</td>
+<td>1</td>
 <td>com.tests.RegisterTestTN@4470fbd6</td></tr>
 <tr>
-<td title='com.tests.WishListTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.WishListTestTN</td>
-<td></td>
-<td>0</td>
-<td>com.tests.WishListTestTN@50f6ac94</td></tr>
-<tr>
-<td title='com.tests.HomeTestTN.verifyFeatureIphoneNavigationTest()'><b>verifyFeatureIphoneNavigationTest</b><br>Test class: com.tests.HomeTestTN</td>
+<td title='com.tests.LoginTestTN.verifyLoginButtonWithPasswordTest()'><b>verifyLoginButtonWithPasswordTest</b><br>Test class: com.tests.LoginTestTN</td>
 <td></td>
 <td>1</td>
-<td>com.tests.HomeTestTN@e3b3b2f</td></tr>
+<td>com.tests.LoginTestTN@50029372</td></tr>
 <tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutConfirmPassword()'><b>verifyRegisterButtonWithoutConfirmPassword</b><br>Test class: com.tests.RegisterTestTN</td>
+<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutLastname()'><b>verifyRegisterButtonWithoutLastname</b><br>Test class: com.tests.RegisterTestTN</td>
 <td></td>
 <td>0</td>
 <td>com.tests.RegisterTestTN@4470fbd6</td></tr>
 <tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithTelephone()'><b>verifyRegisterButtonWithTelephone</b><br>Test class: com.tests.RegisterTestTN</td>
-<td></td>
-<td>0</td>
-<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
-<tr>
-<td title='com.tests.HomeTestTN.verifyComponentDropDownTest()'><b>verifyComponentDropDownTest</b><br>Test class: com.tests.HomeTestTN</td>
+<td title='com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest()'><b>verifyLoginButtonWithInvalidDetailsTest</b><br>Test class: com.tests.LoginTestTN</td>
 <td></td>
 <td>1</td>
-<td>com.tests.HomeTestTN@e3b3b2f</td></tr>
-<tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutTelephone()'><b>verifyRegisterButtonWithoutTelephone</b><br>Test class: com.tests.RegisterTestTN</td>
-<td></td>
-<td>0</td>
-<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
-<tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithConfirmPassword()'><b>verifyRegisterButtonWithConfirmPassword</b><br>Test class: com.tests.RegisterTestTN</td>
-<td></td>
-<td>0</td>
-<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
+<td>com.tests.LoginTestTN@50029372</td></tr>
 <tr>
 <td title='com.tests.WishListTestTN.verifyAddToWishListRemoveTest()'><b>verifyAddToWishListRemoveTest</b><br>Test class: com.tests.WishListTestTN</td>
 <td></td>
 <td>3</td>
 <td>com.tests.WishListTestTN@50f6ac94</td></tr>
 <tr>
-<td title='com.tests.LoginTestTN.verifyLoginButtonWithEmailTest()'><b>verifyLoginButtonWithEmailTest</b><br>Test class: com.tests.LoginTestTN</td>
+<td title='com.tests.OrderHistoryTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.OrderHistoryTestTN</td>
 <td></td>
 <td>0</td>
-<td>com.tests.LoginTestTN@50029372</td></tr>
+<td>com.tests.OrderHistoryTestTN@28194a50</td></tr>
 <tr>
-<td title='com.tests.LoginTestTN.verifyLoginMainTitleTest()'><b>verifyLoginMainTitleTest</b><br>Test class: com.tests.LoginTestTN</td>
+<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithFirstName()'><b>verifyRegisterButtonWithFirstName</b><br>Test class: com.tests.RegisterTestTN</td>
 <td></td>
-<td>0</td>
-<td>com.tests.LoginTestTN@50029372</td></tr>
+<td>1</td>
+<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
 <tr>
-<td title='com.tests.LoginTestTN.verifyLoginButtonWithoutAnyTest()'><b>verifyLoginButtonWithoutAnyTest</b><br>Test class: com.tests.LoginTestTN</td>
+<td title='com.tests.LoginTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.LoginTestTN</td>
 <td></td>
 <td>0</td>
 <td>com.tests.LoginTestTN@50029372</td></tr>
@@ -327,50 +136,190 @@ function toggleAllBoxes() {
 <td>1</td>
 <td>com.tests.LoginTestTN@50029372</td></tr>
 <tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutAnyDetails()'><b>verifyRegisterButtonWithoutAnyDetails</b><br>Test class: com.tests.RegisterTestTN</td>
+<td title='com.tests.HomeTestTN.verifyInvalidsearchFeature()'><b>verifyInvalidsearchFeature</b><br>Test class: com.tests.HomeTestTN</td>
+<td></td>
+<td>0</td>
+<td>com.tests.HomeTestTN@e3b3b2f</td></tr>
+<tr>
+<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithEmail()'><b>verifyRegisterButtonWithEmail</b><br>Test class: com.tests.RegisterTestTN</td>
+<td></td>
+<td>0</td>
+<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
+<tr>
+<td title='com.tests.ShoppingCartTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.ShoppingCartTestTN</td>
+<td></td>
+<td>0</td>
+<td>com.tests.ShoppingCartTestTN@1a5b6f42</td></tr>
+<tr>
+<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithLastName()'><b>verifyRegisterButtonWithLastName</b><br>Test class: com.tests.RegisterTestTN</td>
+<td></td>
+<td>0</td>
+<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
+<tr>
+<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutEmail()'><b>verifyRegisterButtonWithoutEmail</b><br>Test class: com.tests.RegisterTestTN</td>
 <td></td>
 <td>1</td>
 <td>com.tests.RegisterTestTN@4470fbd6</td></tr>
 <tr>
-<td title='com.tests.RegisterTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.RegisterTestTN</td>
+<td title='com.tests.HomeTestTN.verifyFeatureIphoneNavigationTest()'><b>verifyFeatureIphoneNavigationTest</b><br>Test class: com.tests.HomeTestTN</td>
 <td></td>
-<td>0</td>
-<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
+<td>3</td>
+<td>com.tests.HomeTestTN@e3b3b2f</td></tr>
 <tr>
-<td title='com.tests.WishListTestTN.verifyWishListPageMainTitleTest()'><b>verifyWishListPageMainTitleTest</b><br>Test class: com.tests.WishListTestTN</td>
+<td title='com.tests.HomeTestTN.verifyComponentDropDownTest()'><b>verifyComponentDropDownTest</b><br>Test class: com.tests.HomeTestTN</td>
 <td></td>
-<td>0</td>
-<td>com.tests.WishListTestTN@50f6ac94</td></tr>
+<td>1</td>
+<td>com.tests.HomeTestTN@e3b3b2f</td></tr>
 <tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterAccountSubTitleTest()'><b>verifyRegisterAccountSubTitleTest</b><br>Test class: com.tests.RegisterTestTN</td>
+<td title='com.tests.LoginTestTN.verifyLoginButtonWithEmailTest()'><b>verifyLoginButtonWithEmailTest</b><br>Test class: com.tests.LoginTestTN</td>
 <td></td>
-<td>0</td>
-<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
+<td>1</td>
+<td>com.tests.LoginTestTN@50029372</td></tr>
 <tr>
 <td title='com.tests.RegisterTestTN.verifyRegisterAccountMainTitleTest()'><b>verifyRegisterAccountMainTitleTest</b><br>Test class: com.tests.RegisterTestTN</td>
 <td></td>
 <td>0</td>
 <td>com.tests.RegisterTestTN@4470fbd6</td></tr>
 <tr>
-<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutLastname()'><b>verifyRegisterButtonWithoutLastname</b><br>Test class: com.tests.RegisterTestTN</td>
+<td title='com.tests.CheckoutTestTN.verifyCheckOutFlowTest()'><b>verifyCheckOutFlowTest</b><br>Test class: com.tests.CheckoutTestTN</td>
+<td></td>
+<td>10</td>
+<td>com.tests.CheckoutTestTN@6cc4cdb9</td></tr>
+<tr>
+<td title='com.tests.ProductReturnTestTN.verifyProductReturnTest()'><b>verifyProductReturnTest</b><br>Test class: com.tests.ProductReturnTestTN</td>
+<td></td>
+<td>4</td>
+<td>com.tests.ProductReturnTestTN@7f2cfe3f</td></tr>
+<tr>
+<td title='com.tests.CheckoutTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.CheckoutTestTN</td>
+<td></td>
+<td>3</td>
+<td>com.tests.CheckoutTestTN@6cc4cdb9</td></tr>
+<tr>
+<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithConfirmPassword()'><b>verifyRegisterButtonWithConfirmPassword</b><br>Test class: com.tests.RegisterTestTN</td>
 <td></td>
 <td>0</td>
 <td>com.tests.RegisterTestTN@4470fbd6</td></tr>
 <tr>
-<td title='com.tests.LoginTestTN.verifyLoginButtonWithPasswordTest()'><b>verifyLoginButtonWithPasswordTest</b><br>Test class: com.tests.LoginTestTN</td>
+<td title='com.tests.WishListTestTN.verifyAddToWishListTest()'><b>verifyAddToWishListTest</b><br>Test class: com.tests.WishListTestTN</td>
+<td></td>
+<td>1</td>
+<td>com.tests.WishListTestTN@50f6ac94</td></tr>
+<tr>
+<td title='com.tests.HomeTestTN.verifyItemCartScenarioEmptyTest()'><b>verifyItemCartScenarioEmptyTest</b><br>Test class: com.tests.HomeTestTN</td>
+<td></td>
+<td>0</td>
+<td>com.tests.HomeTestTN@e3b3b2f</td></tr>
+<tr>
+<td title='com.tests.OrderHistoryTestTN.verifyOrderHistoryTest()'><b>verifyOrderHistoryTest</b><br>Test class: com.tests.OrderHistoryTestTN</td>
+<td></td>
+<td>1</td>
+<td>com.tests.OrderHistoryTestTN@28194a50</td></tr>
+<tr>
+<td title='com.tests.LoginTestTN.verifyLoginButtonWithoutAnyTest()'><b>verifyLoginButtonWithoutAnyTest</b><br>Test class: com.tests.LoginTestTN</td>
 <td></td>
 <td>0</td>
 <td>com.tests.LoginTestTN@50029372</td></tr>
+<tr>
+<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithPrivacyPolicy()'><b>verifyRegisterButtonWithPrivacyPolicy</b><br>Test class: com.tests.RegisterTestTN</td>
+<td></td>
+<td>1</td>
+<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
+<tr>
+<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutTelephone()'><b>verifyRegisterButtonWithoutTelephone</b><br>Test class: com.tests.RegisterTestTN</td>
+<td></td>
+<td>1</td>
+<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
+<tr>
+<td title='com.tests.LoginTestTN.verifyLoginMainTitleTest()'><b>verifyLoginMainTitleTest</b><br>Test class: com.tests.LoginTestTN</td>
+<td></td>
+<td>0</td>
+<td>com.tests.LoginTestTN@50029372</td></tr>
+<tr>
+<td title='com.tests.WishListTestTN.verifyWishListPageMainTitleTest()'><b>verifyWishListPageMainTitleTest</b><br>Test class: com.tests.WishListTestTN</td>
+<td></td>
+<td>0</td>
+<td>com.tests.WishListTestTN@50f6ac94</td></tr>
 <tr>
 <td title='com.tests.WishListTestTN.verifyWishListPageSubTitleTest()'><b>verifyWishListPageSubTitleTest</b><br>Test class: com.tests.WishListTestTN</td>
 <td></td>
 <td>0</td>
 <td>com.tests.WishListTestTN@50f6ac94</td></tr>
 <tr>
-<td title='com.tests.OrderHistoryTestTN.verifyOrderHistoryTest()'><b>verifyOrderHistoryTest</b><br>Test class: com.tests.OrderHistoryTestTN</td>
+<td title='com.tests.ProductReturnTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.ProductReturnTestTN</td>
+<td></td>
+<td>2</td>
+<td>com.tests.ProductReturnTestTN@7f2cfe3f</td></tr>
+<tr>
+<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutConfirmPassword()'><b>verifyRegisterButtonWithoutConfirmPassword</b><br>Test class: com.tests.RegisterTestTN</td>
 <td></td>
 <td>0</td>
-<td>com.tests.OrderHistoryTestTN@28194a50</td></tr>
+<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
+<tr>
+<td title='com.tests.LogoutTestTN.verifyTitleDisplayedTest()'><b>verifyTitleDisplayedTest</b><br>Test class: com.tests.LogoutTestTN<br>Parameters: sundarakshayqq@gmail.com, tutorialsninja@123</td>
+<td></td>
+<td>3</td>
+<td>com.tests.LogoutTestTN@5038d0b5</td></tr>
+<tr>
+<td title='com.tests.ShoppingCartTestTN.verifyUpdateQuantityTest()'><b>verifyUpdateQuantityTest</b><br>Test class: com.tests.ShoppingCartTestTN</td>
+<td></td>
+<td>1</td>
+<td>com.tests.ShoppingCartTestTN@1a5b6f42</td></tr>
+<tr>
+<td title='com.tests.LoginTestTN.verifyLoginSubTitleTest()'><b>verifyLoginSubTitleTest</b><br>Test class: com.tests.LoginTestTN</td>
+<td></td>
+<td>0</td>
+<td>com.tests.LoginTestTN@50029372</td></tr>
+<tr>
+<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutAnyDetails()'><b>verifyRegisterButtonWithoutAnyDetails</b><br>Test class: com.tests.RegisterTestTN</td>
+<td></td>
+<td>0</td>
+<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
+<tr>
+<td title='com.tests.LoginTestTN.verifyLoginButtonWithAllDetailsTest()'><b>verifyLoginButtonWithAllDetailsTest</b><br>Test class: com.tests.LoginTestTN</td>
+<td></td>
+<td>2</td>
+<td>com.tests.LoginTestTN@50029372</td></tr>
+<tr>
+<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithTelephone()'><b>verifyRegisterButtonWithTelephone</b><br>Test class: com.tests.RegisterTestTN</td>
+<td></td>
+<td>0</td>
+<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
+<tr>
+<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutFirstname()'><b>verifyRegisterButtonWithoutFirstname</b><br>Test class: com.tests.RegisterTestTN</td>
+<td></td>
+<td>1</td>
+<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
+<tr>
+<td title='com.tests.ShoppingCartTestTN.verifyCheckoutButtonTest()'><b>verifyCheckoutButtonTest</b><br>Test class: com.tests.ShoppingCartTestTN</td>
+<td></td>
+<td>1</td>
+<td>com.tests.ShoppingCartTestTN@1a5b6f42</td></tr>
+<tr>
+<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithoutPassword()'><b>verifyRegisterButtonWithoutPassword</b><br>Test class: com.tests.RegisterTestTN</td>
+<td></td>
+<td>1</td>
+<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
+<tr>
+<td title='com.tests.RegisterTestTN.verifyRegisterButtonWithAllDetails()'><b>verifyRegisterButtonWithAllDetails</b><br>Test class: com.tests.RegisterTestTN</td>
+<td></td>
+<td>2</td>
+<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
+<tr>
+<td title='com.tests.RegisterTestTN.verifyRegisterAccountSubTitleTest()'><b>verifyRegisterAccountSubTitleTest</b><br>Test class: com.tests.RegisterTestTN</td>
+<td></td>
+<td>0</td>
+<td>com.tests.RegisterTestTN@4470fbd6</td></tr>
+<tr>
+<td title='com.tests.HomeTestTN.verifyValidsearchFeature()'><b>verifyValidsearchFeature</b><br>Test class: com.tests.HomeTestTN</td>
+<td></td>
+<td>1</td>
+<td>com.tests.HomeTestTN@e3b3b2f</td></tr>
+<tr>
+<td title='com.tests.ShoppingCartTestTN.verifyEstimateShippingAndTexasTest()'><b>verifyEstimateShippingAndTexasTest</b><br>Test class: com.tests.ShoppingCartTestTN</td>
+<td></td>
+<td>20</td>
+<td>com.tests.ShoppingCartTestTN@1a5b6f42</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -381,19 +330,54 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest()'><b>verifyLoginButtonWithInvalidDetailsTest</b><br>Test class: com.tests.LoginTestTN</td>
-<td><div><pre>java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-	at com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest(LoginTestTN.java:70)
+<td title='com.tests.CheckoutTestTN.verifyCheckOutFlowTest()'><b>verifyCheckOutFlowTest</b><br>Test class: com.tests.CheckoutTestTN</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;checkbox&quot; name=&quot;agree&quot; value=&quot;1&quot;&gt; is not clickable at point (1093, 488). Other element would receive the click: &lt;div class=&quot;panel-body&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.86)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25b4255cfac300a5267ddb6ef9df0ce6, clickElement {id=f.3E3E7A910BFE410B78325910B10D94EE.d.46687799688109DB3FEDEE5437D520F5.e.295}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63075}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63075/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (25b4255cfac300a5267ddb6ef9df0ce6)] -&gt; xpath: //input[@type=&apos;checkbox&apos;]]
+Session ID: 25b4255cfac300a5267ddb6ef9df0ce6
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.utilities.UtilitiesTN.buttonClick(UtilitiesTN.java:33)
+	at com.pages.CheckoutPageTN.verifytermsAndConditionPaymentMethodClick(CheckoutPageTN.java:125)
+	at com.tests.CheckoutTestTN.verifyCheckOutFlowTest(CheckoutTestTN.java:57)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2076356118", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2076356118'><pre>java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest(LoginTestTN.java:70)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace558772613", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace558772613'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;checkbox&quot; name=&quot;agree&quot; value=&quot;1&quot;&gt; is not clickable at point (1093, 488). Other element would receive the click: &lt;div class=&quot;panel-body&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.86)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25b4255cfac300a5267ddb6ef9df0ce6, clickElement {id=f.3E3E7A910BFE410B78325910B10D94EE.d.46687799688109DB3FEDEE5437D520F5.e.295}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63075}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63075/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (25b4255cfac300a5267ddb6ef9df0ce6)] -&gt; xpath: //input[@type=&apos;checkbox&apos;]]
+Session ID: 25b4255cfac300a5267ddb6ef9df0ce6
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.utilities.UtilitiesTN.buttonClick(UtilitiesTN.java:33)
+	at com.pages.CheckoutPageTN.verifytermsAndConditionPaymentMethodClick(CheckoutPageTN.java:125)
+	at com.tests.CheckoutTestTN.verifyCheckOutFlowTest(CheckoutTestTN.java:57)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -425,102 +409,8 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>0</td>
-<td>com.tests.LoginTestTN@50029372</td></tr>
-<tr>
-<td title='com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest()'><b>verifyLoginButtonWithInvalidDetailsTest</b><br>Test class: com.tests.LoginTestTN</td>
-<td><div><pre>java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-	at com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest(LoginTestTN.java:70)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace327845331", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace327845331'><pre>java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest(LoginTestTN.java:70)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>com.tests.LoginTestTN@50029372</td></tr>
-<tr>
-<td title='com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest()'><b>verifyLoginButtonWithInvalidDetailsTest</b><br>Test class: com.tests.LoginTestTN</td>
-<td><div><pre>java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-	at com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest(LoginTestTN.java:70)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1164616817", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1164616817'><pre>java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest(LoginTestTN.java:70)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>com.tests.LoginTestTN@50029372</td></tr>
+<td>9</td>
+<td>com.tests.CheckoutTestTN@6cc4cdb9</td></tr>
 </table><p>
 </body>
 </html>

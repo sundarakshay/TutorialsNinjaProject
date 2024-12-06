@@ -1,7 +1,6 @@
 package Listeners;
 
 import org.testng.IRetryAnalyzer;
-import org.testng.ITestNGListener;
 import org.testng.ITestResult;
 
 public class TNRetryListener implements IRetryAnalyzer{

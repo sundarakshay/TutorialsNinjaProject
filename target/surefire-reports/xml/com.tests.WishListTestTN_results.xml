@@ -4,34 +4,34 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="6.610">
+           time="6.717">
     <properties></properties>
 
 
 
             <testcase
-                name="verifyAddToWishListTest"
-                time="1.808"
-                classname="com.tests.WishListTestTN">
-            </testcase>
-            <testcase
                 name="verifyTitleDisplayedTest"
-                time="0.454"
+                time="0.494"
                 classname="com.tests.WishListTestTN">
             </testcase>
             <testcase
                 name="verifyAddToWishListRemoveTest"
-                time="3.332"
+                time="3.340"
+                classname="com.tests.WishListTestTN">
+            </testcase>
+            <testcase
+                name="verifyAddToWishListTest"
+                time="1.907"
                 classname="com.tests.WishListTestTN">
             </testcase>
             <testcase
                 name="verifyWishListPageMainTitleTest"
-                time="0.490"
+                time="0.503"
                 classname="com.tests.WishListTestTN">
             </testcase>
             <testcase
                 name="verifyWishListPageSubTitleTest"
-                time="0.526"
+                time="0.473"
                 classname="com.tests.WishListTestTN">
             </testcase>
 </testsuite>

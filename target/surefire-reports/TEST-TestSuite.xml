@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="464.154" tests="52" errors="0" skipped="3" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="570.858" tests="50" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\aksha\AppData\Local\Temp\surefire16679249061040903739\surefirebooter-20241205210324765_3.jar C:\Users\aksha\AppData\Local\Temp\surefire16679249061040903739 2024-12-05T21-03-24_610-jvmRun1 surefire-20241205210324765_1tmp surefire_0-20241205210324765_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\aksha\AppData\Local\Temp\surefire4373982937054020225\surefirebooter-20241205212010184_3.jar C:\Users\aksha\AppData\Local\Temp\surefire4373982937054020225 2024-12-05T21-20-10_019-jvmRun1 surefire-20241205212010184_1tmp surefire_0-20241205212010184_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\aksha\eclipse-workspace\TutorialsNinjaProject\target\test-classes;C:\Users\aksha\eclipse-workspace\TutorialsNinjaProject\target\classes;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\aksha\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\aksha\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\aksha\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\aksha\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\aksha\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\aksha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\aksha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\aksha\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\aksha\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\aksha\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\aksha\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\aksha\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\aksha\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\aksha\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\aksha\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\aksha\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\aksha\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\aksha\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\aksha\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\aksha\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\aksha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\aksha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\aksha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\aksha\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\aksha\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\aksha\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\aksha\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\aksha\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\aksha\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\aksha\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\aksha\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\aksha\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\aksha\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\aksha\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\aksha\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\aksha\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\aksha\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\aksha\.m2\repository\net\sourceforge\jexcelapi\jxl\2.5.7\jxl-2.5.7.jar;C:\Users\aksha\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\aksha\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\aksha\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\aksha\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\aksha\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\aksha\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\aksha\.m2\repository\ru\yandex\qatools\ashot\ashot\1.4.12\ashot-1.4.12.jar;C:\Users\aksha\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\aksha\.m2\repository\com\googlecode\lambdaj\lambdaj\2.3.3\lambdaj-2.3.3.jar;C:\Users\aksha\.m2\repository\org\objenesis\objenesis\1.2\objenesis-1.2.jar;C:\Users\aksha\.m2\repository\cglib\cglib-nodep\2.2\cglib-nodep-2.2.jar;C:\Users\aksha\.m2\repository\org\slf4j\slf4j-nop\2.0.9\slf4j-nop-2.0.9.jar;C:\Users\aksha\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.0\log4j-slf4j-impl-2.24.0.jar;C:\Users\aksha\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.0\log4j-api-2.24.0.jar;C:\Users\aksha\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.0\log4j-core-2.24.0.jar;C:\Users\aksha\.m2\repository\org\testng\reportng\1.2.2\reportng-1.2.2.jar;C:\Users\aksha\.m2\repository\com\google\inject\guice\4.2.0\guice-4.2.0.jar;C:\Users\aksha\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\aksha\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\aksha\AppData\Local\Temp\surefire16679249061040903739\surefirebooter-20241205210324765_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\aksha\AppData\Local\Temp\surefire4373982937054020225\surefirebooter-20241205212010184_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
@@ -60,102 +60,56 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="verifyTitleDisplayedTest" classname="com.tests.RegisterTestTN" time="0.39"/>
-  <testcase name="verifyRegisterAccountMainTitleTest" classname="com.tests.RegisterTestTN" time="0.618"/>
-  <testcase name="verifyRegisterAccountSubTitleTest" classname="com.tests.RegisterTestTN" time="0.403"/>
-  <testcase name="verifyRegisterButtonWithoutAnyDetails" classname="com.tests.RegisterTestTN" time="1.411"/>
-  <testcase name="verifyRegisterButtonWithFirstName" classname="com.tests.RegisterTestTN" time="0.973"/>
-  <testcase name="verifyRegisterButtonWithLastName" classname="com.tests.RegisterTestTN" time="1.103"/>
-  <testcase name="verifyRegisterButtonWithEmail" classname="com.tests.RegisterTestTN" time="1.082"/>
-  <testcase name="verifyRegisterButtonWithTelephone" classname="com.tests.RegisterTestTN" time="0.978"/>
-  <testcase name="verifyRegisterButtonWithPassword" classname="com.tests.RegisterTestTN" time="0.998"/>
-  <testcase name="verifyRegisterButtonWithConfirmPassword" classname="com.tests.RegisterTestTN" time="1.12"/>
-  <testcase name="verifyRegisterButtonWithPrivacyPolicy" classname="com.tests.RegisterTestTN" time="2.186"/>
-  <testcase name="verifyRegisterButtonWithoutFirstname" classname="com.tests.RegisterTestTN" time="1.413"/>
-  <testcase name="verifyRegisterButtonWithoutLastname" classname="com.tests.RegisterTestTN" time="1.227"/>
-  <testcase name="verifyRegisterButtonWithoutEmail" classname="com.tests.RegisterTestTN" time="1.211"/>
-  <testcase name="verifyRegisterButtonWithoutTelephone" classname="com.tests.RegisterTestTN" time="1.289"/>
-  <testcase name="verifyRegisterButtonWithoutPassword" classname="com.tests.RegisterTestTN" time="1.227"/>
-  <testcase name="verifyRegisterButtonWithoutConfirmPassword" classname="com.tests.RegisterTestTN" time="1.184"/>
-  <testcase name="verifyRegisterButtonWithoutPrivacyPolicy" classname="com.tests.RegisterTestTN" time="1.242"/>
-  <testcase name="verifyRegisterButtonWithAllDetails" classname="com.tests.RegisterTestTN" time="2.417"/>
-  <testcase name="verifyTitleDisplayedTest" classname="com.tests.LoginTestTN" time="0.395"/>
-  <testcase name="verifyLoginMainTitleTest" classname="com.tests.LoginTestTN" time="0.42"/>
-  <testcase name="verifyLoginSubTitleTest" classname="com.tests.LoginTestTN" time="0.377"/>
-  <testcase name="verifyLoginButtonWithoutAnyTest" classname="com.tests.LoginTestTN" time="1.15"/>
-  <testcase name="verifyLoginButtonWithEmailTest" classname="com.tests.LoginTestTN" time="1.194"/>
-  <testcase name="verifyLoginButtonWithPasswordTest" classname="com.tests.LoginTestTN" time="1.347"/>
-  <testcase name="verifyLoginButtonWithInvalidDetailsTest" classname="com.tests.LoginTestTN" time="0.0">
-    <skipped message="expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]"/>
+  <testcase name="verifyTitleDisplayedTest" classname="com.tests.RegisterTestTN" time="0.601"/>
+  <testcase name="verifyRegisterAccountMainTitleTest" classname="com.tests.RegisterTestTN" time="0.238"/>
+  <testcase name="verifyRegisterAccountSubTitleTest" classname="com.tests.RegisterTestTN" time="0.188"/>
+  <testcase name="verifyRegisterButtonWithoutAnyDetails" classname="com.tests.RegisterTestTN" time="1.138"/>
+  <testcase name="verifyRegisterButtonWithFirstName" classname="com.tests.RegisterTestTN" time="1.247"/>
+  <testcase name="verifyRegisterButtonWithLastName" classname="com.tests.RegisterTestTN" time="1.052"/>
+  <testcase name="verifyRegisterButtonWithEmail" classname="com.tests.RegisterTestTN" time="0.971"/>
+  <testcase name="verifyRegisterButtonWithTelephone" classname="com.tests.RegisterTestTN" time="0.886"/>
+  <testcase name="verifyRegisterButtonWithPassword" classname="com.tests.RegisterTestTN" time="0.857"/>
+  <testcase name="verifyRegisterButtonWithConfirmPassword" classname="com.tests.RegisterTestTN" time="1.0"/>
+  <testcase name="verifyRegisterButtonWithPrivacyPolicy" classname="com.tests.RegisterTestTN" time="1.227"/>
+  <testcase name="verifyRegisterButtonWithoutFirstname" classname="com.tests.RegisterTestTN" time="1.349"/>
+  <testcase name="verifyRegisterButtonWithoutLastname" classname="com.tests.RegisterTestTN" time="1.157"/>
+  <testcase name="verifyRegisterButtonWithoutEmail" classname="com.tests.RegisterTestTN" time="1.277"/>
+  <testcase name="verifyRegisterButtonWithoutTelephone" classname="com.tests.RegisterTestTN" time="1.235"/>
+  <testcase name="verifyRegisterButtonWithoutPassword" classname="com.tests.RegisterTestTN" time="1.531"/>
+  <testcase name="verifyRegisterButtonWithoutConfirmPassword" classname="com.tests.RegisterTestTN" time="1.185"/>
+  <testcase name="verifyRegisterButtonWithoutPrivacyPolicy" classname="com.tests.RegisterTestTN" time="1.169"/>
+  <testcase name="verifyRegisterButtonWithAllDetails" classname="com.tests.RegisterTestTN" time="2.506"/>
+  <testcase name="verifyTitleDisplayedTest" classname="com.tests.LoginTestTN" time="0.199"/>
+  <testcase name="verifyLoginMainTitleTest" classname="com.tests.LoginTestTN" time="0.224"/>
+  <testcase name="verifyLoginSubTitleTest" classname="com.tests.LoginTestTN" time="0.252"/>
+  <testcase name="verifyLoginButtonWithoutAnyTest" classname="com.tests.LoginTestTN" time="0.869"/>
+  <testcase name="verifyLoginButtonWithEmailTest" classname="com.tests.LoginTestTN" time="1.915"/>
+  <testcase name="verifyLoginButtonWithPasswordTest" classname="com.tests.LoginTestTN" time="1.076"/>
+  <testcase name="verifyLoginButtonWithInvalidDetailsTest" classname="com.tests.LoginTestTN" time="1.192"/>
+  <testcase name="verifyLoginPageContinueButtonNavigationTest" classname="com.tests.LoginTestTN" time="1.28"/>
+  <testcase name="verifyLoginButtonWithAllDetailsTest" classname="com.tests.LoginTestTN" time="2.251"/>
+  <testcase name="verifyItemCartScenarioEmptyTest" classname="com.tests.HomeTestTN" time="0.441"/>
+  <testcase name="verifyComponentDropDownTest" classname="com.tests.HomeTestTN" time="1.502"/>
+  <testcase name="verifyFeatureIphoneNavigationTest" classname="com.tests.HomeTestTN" time="3.944"/>
+  <testcase name="verifyInvalidsearchFeature" classname="com.tests.HomeTestTN" time="1.185"/>
+  <testcase name="verifyValidsearchFeature" classname="com.tests.HomeTestTN" time="1.415"/>
+  <testcase name="verifyTitleDisplayedTest" classname="com.tests.WishListTestTN" time="0.663"/>
+  <testcase name="verifyWishListPageMainTitleTest" classname="com.tests.WishListTestTN" time="0.675"/>
+  <testcase name="verifyWishListPageSubTitleTest" classname="com.tests.WishListTestTN" time="0.606"/>
+  <testcase name="verifyAddToWishListTest" classname="com.tests.WishListTestTN" time="2.096"/>
+  <testcase name="verifyAddToWishListRemoveTest" classname="com.tests.WishListTestTN" time="3.519"/>
+  <testcase name="verifyTitleDisplayedTest" classname="com.tests.CheckoutTestTN" time="4.143"/>
+  <testcase name="verifyCheckOutFlowTest" classname="com.tests.CheckoutTestTN" time="0.0">
+    <skipped message="element click intercepted: Element &lt;input type=&quot;checkbox&quot; name=&quot;agree&quot; value=&quot;1&quot;&gt; is not clickable at point (1093, 488). Other element would receive the click: &lt;div class=&quot;panel-body&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=131.0.6778.86)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [25b4255cfac300a5267ddb6ef9df0ce6, clickElement {id=f.3E3E7A910BFE410B78325910B10D94EE.d.46687799688109DB3FEDEE5437D520F5.e.295}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63075}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63075/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (25b4255cfac300a5267ddb6ef9df0ce6)] -&gt; xpath: //input[@type=&apos;checkbox&apos;]]&#10;Session ID: 25b4255cfac300a5267ddb6ef9df0ce6"/>
   </testcase>
-  <testcase name="verifyLoginButtonWithInvalidDetailsTest" classname="com.tests.LoginTestTN" time="0.0">
-    <skipped message="expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]"/>
-  </testcase>
-  <testcase name="verifyLoginButtonWithInvalidDetailsTest" classname="com.tests.LoginTestTN" time="0.0">
-    <skipped message="expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]"/>
-  </testcase>
-  <testcase name="verifyLoginButtonWithInvalidDetailsTest" classname="com.tests.LoginTestTN" time="1.149">
-    <failure message="expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest(LoginTestTN.java:70)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="verifyLoginPageContinueButtonNavigationTest" classname="com.tests.LoginTestTN" time="1.794"/>
-  <testcase name="verifyLoginButtonWithAllDetailsTest" classname="com.tests.LoginTestTN" time="1.742"/>
-  <testcase name="verifyItemCartScenarioEmptyTest" classname="com.tests.HomeTestTN" time="0.572"/>
-  <testcase name="verifyComponentDropDownTest" classname="com.tests.HomeTestTN" time="1.664"/>
-  <testcase name="verifyFeatureIphoneNavigationTest" classname="com.tests.HomeTestTN" time="2.239"/>
-  <testcase name="verifyInvalidsearchFeature" classname="com.tests.HomeTestTN" time="1.425"/>
-  <testcase name="verifyValidsearchFeature" classname="com.tests.HomeTestTN" time="1.667"/>
-  <testcase name="verifyTitleDisplayedTest" classname="com.tests.WishListTestTN" time="0.785"/>
-  <testcase name="verifyWishListPageMainTitleTest" classname="com.tests.WishListTestTN" time="0.881"/>
-  <testcase name="verifyWishListPageSubTitleTest" classname="com.tests.WishListTestTN" time="0.842"/>
-  <testcase name="verifyAddToWishListTest" classname="com.tests.WishListTestTN" time="2.164"/>
-  <testcase name="verifyAddToWishListRemoveTest" classname="com.tests.WishListTestTN" time="3.661"/>
-  <testcase name="verifyTitleDisplayedTest" classname="com.tests.CheckoutTestTN" time="4.683"/>
-  <testcase name="verifyCheckOutFlowTest" classname="com.tests.CheckoutTestTN" time="10.596"/>
-  <testcase name="verifyTitleDisplayedTest" classname="com.tests.OrderHistoryTestTN" time="0.869"/>
-  <testcase name="verifyOrderHistoryTest" classname="com.tests.OrderHistoryTestTN" time="1.275"/>
-  <testcase name="verifyTitleDisplayedTest" classname="com.tests.ProductReturnTestTN" time="2.918"/>
-  <testcase name="verifyProductReturnTest" classname="com.tests.ProductReturnTestTN" time="4.281"/>
-  <testcase name="verifyTitleDisplayedTest" classname="com.tests.ShoppingCartTestTN" time="1.164"/>
-  <testcase name="verifyUpdateQuantityTest" classname="com.tests.ShoppingCartTestTN" time="1.722"/>
-  <testcase name="verifyEstimateShippingAndTexasTest" classname="com.tests.ShoppingCartTestTN" time="18.767"/>
-  <testcase name="verifyCheckoutButtonTest" classname="com.tests.ShoppingCartTestTN" time="1.275"/>
-  <testcase name="verifyTitleDisplayedTest[sundarakshayqq@gmail.com, tutorialsninja@123](1)" classname="com.tests.LogoutTestTN" time="2.644"/>
+  <testcase name="verifyCheckOutFlowTest" classname="com.tests.CheckoutTestTN" time="10.721"/>
+  <testcase name="verifyTitleDisplayedTest" classname="com.tests.OrderHistoryTestTN" time="0.776"/>
+  <testcase name="verifyOrderHistoryTest" classname="com.tests.OrderHistoryTestTN" time="1.338"/>
+  <testcase name="verifyTitleDisplayedTest" classname="com.tests.ProductReturnTestTN" time="2.296"/>
+  <testcase name="verifyProductReturnTest" classname="com.tests.ProductReturnTestTN" time="4.622"/>
+  <testcase name="verifyTitleDisplayedTest" classname="com.tests.ShoppingCartTestTN" time="0.935"/>
+  <testcase name="verifyUpdateQuantityTest" classname="com.tests.ShoppingCartTestTN" time="1.858"/>
+  <testcase name="verifyEstimateShippingAndTexasTest" classname="com.tests.ShoppingCartTestTN" time="20.578"/>
+  <testcase name="verifyCheckoutButtonTest" classname="com.tests.ShoppingCartTestTN" time="1.288"/>
+  <testcase name="verifyTitleDisplayedTest[sundarakshayqq@gmail.com, tutorialsninja@123](1)" classname="com.tests.LogoutTestTN" time="3.175"/>
 </testsuite>

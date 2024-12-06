@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="6.428">
+           time="6.425">
     <properties></properties>
 
 
 
             <testcase
                 name="verifyProductReturnTest"
-                time="3.945"
+                time="4.380"
                 classname="com.tests.ProductReturnTestTN">
             </testcase>
             <testcase
                 name="verifyTitleDisplayedTest"
-                time="2.483"
+                time="2.045"
                 classname="com.tests.ProductReturnTestTN">
             </testcase>
 </testsuite>

@@ -1,228 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="3" ignored="3" total="55" passed="48" failed="1" skipped="0">
+<testng-results retried="1" ignored="1" total="51" passed="49" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-05T21:03:25 CST" name="Suite" finished-at="2024-12-05T21:11:07 CST" duration-ms="461490">
+  <suite started-at="2024-12-05T21:20:11 CST" name="Suite" finished-at="2024-12-05T21:29:38 CST" duration-ms="567079">
     <groups>
     </groups>
-    <test started-at="2024-12-05T21:03:25 CST" name="Test" finished-at="2024-12-05T21:11:07 CST" duration-ms="461490">
+    <test started-at="2024-12-05T21:20:11 CST" name="Test" finished-at="2024-12-05T21:29:38 CST" duration-ms="567079">
       <class name="com.tests.OrderHistoryTestTN">
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:09:15 CST" name="browserInitialise" finished-at="2024-12-05T21:09:21 CST" duration-ms="6934" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:27:06 CST" name="browserInitialise" finished-at="2024-12-05T21:27:14 CST" duration-ms="7972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:09:21 CST" name="PreExecutionModule" finished-at="2024-12-05T21:09:23 CST" duration-ms="1435" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:27:14 CST" name="PreExecutionModule" finished-at="2024-12-05T21:27:16 CST" duration-ms="1576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyTitleDisplayedTest()[pri:1, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:09:23 CST" name="verifyTitleDisplayedTest" finished-at="2024-12-05T21:09:23 CST" duration-ms="546" status="PASS">
+        <test-method signature="verifyTitleDisplayedTest()[pri:1, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:27:16 CST" name="verifyTitleDisplayedTest" finished-at="2024-12-05T21:27:16 CST" duration-ms="610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleDisplayedTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:09:24 CST" name="browserQuit" finished-at="2024-12-05T21:09:24 CST" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:27:17 CST" name="browserQuit" finished-at="2024-12-05T21:27:17 CST" duration-ms="939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:09:24 CST" name="browserInitialise" finished-at="2024-12-05T21:09:28 CST" duration-ms="3880" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:27:18 CST" name="browserInitialise" finished-at="2024-12-05T21:27:28 CST" duration-ms="10799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:09:28 CST" name="PreExecutionModule" finished-at="2024-12-05T21:09:29 CST" duration-ms="1424" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:27:28 CST" name="PreExecutionModule" finished-at="2024-12-05T21:27:31 CST" duration-ms="2700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyOrderHistoryTest()[pri:2, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:09:29 CST" name="verifyOrderHistoryTest" finished-at="2024-12-05T21:09:30 CST" duration-ms="929" status="PASS">
+        <test-method signature="verifyOrderHistoryTest()[pri:2, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:27:31 CST" name="verifyOrderHistoryTest" finished-at="2024-12-05T21:27:32 CST" duration-ms="1138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOrderHistoryTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:09:31 CST" name="browserQuit" finished-at="2024-12-05T21:09:31 CST" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.OrderHistoryTestTN@28194a50]" started-at="2024-12-05T21:27:32 CST" name="browserQuit" finished-at="2024-12-05T21:27:34 CST" duration-ms="1895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
       </class> <!-- com.tests.OrderHistoryTestTN -->
       <class name="com.tests.CheckoutTestTN">
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:08:42 CST" name="browserInitialise" finished-at="2024-12-05T21:08:46 CST" duration-ms="3980" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:26:16 CST" name="browserInitialise" finished-at="2024-12-05T21:26:23 CST" duration-ms="7189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:08:46 CST" name="PreExecutionModule" finished-at="2024-12-05T21:08:48 CST" duration-ms="1623" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:26:23 CST" name="PreExecutionModule" finished-at="2024-12-05T21:26:25 CST" duration-ms="1828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyTitleDisplayedTest()[pri:1, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:08:48 CST" name="verifyTitleDisplayedTest" finished-at="2024-12-05T21:08:52 CST" duration-ms="4363" status="PASS">
+        <test-method signature="verifyTitleDisplayedTest()[pri:1, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:26:25 CST" name="verifyTitleDisplayedTest" finished-at="2024-12-05T21:26:29 CST" duration-ms="3881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleDisplayedTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:08:52 CST" name="browserQuit" finished-at="2024-12-05T21:08:53 CST" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:26:29 CST" name="browserQuit" finished-at="2024-12-05T21:26:30 CST" duration-ms="728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:08:53 CST" name="browserInitialise" finished-at="2024-12-05T21:09:01 CST" duration-ms="8109" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:26:30 CST" name="browserInitialise" finished-at="2024-12-05T21:26:34 CST" duration-ms="4562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:09:01 CST" name="PreExecutionModule" finished-at="2024-12-05T21:09:04 CST" duration-ms="3012" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:26:34 CST" name="PreExecutionModule" finished-at="2024-12-05T21:26:36 CST" duration-ms="1898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyCheckOutFlowTest()[pri:2, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:09:04 CST" name="verifyCheckOutFlowTest" finished-at="2024-12-05T21:09:14 CST" duration-ms="10274" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCheckOutFlowTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:09:14 CST" name="browserQuit" finished-at="2024-12-05T21:09:15 CST" duration-ms="226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-      </class> <!-- com.tests.CheckoutTestTN -->
-      <class name="com.tests.LogoutTestTN">
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LogoutTestTN@5038d0b5]" started-at="2024-12-05T21:10:57 CST" name="browserInitialise" finished-at="2024-12-05T21:11:04 CST" duration-ms="6748" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LogoutTestTN@5038d0b5]" started-at="2024-12-05T21:11:04 CST" name="PreExecutionModule" finished-at="2024-12-05T21:11:04 CST" duration-ms="401" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyTitleDisplayedTest(java.lang.String,java.lang.String)[pri:1, instance:com.tests.LogoutTestTN@5038d0b5]" started-at="2024-12-05T21:11:04 CST" name="verifyTitleDisplayedTest" data-provider="data" finished-at="2024-12-05T21:11:06 CST" duration-ms="2305" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sundarakshayqq@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[tutorialsninja@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitleDisplayedTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LogoutTestTN@5038d0b5]" started-at="2024-12-05T21:11:07 CST" name="browserQuit" finished-at="2024-12-05T21:11:07 CST" duration-ms="201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-      </class> <!-- com.tests.LogoutTestTN -->
-      <class name="com.tests.LoginTestTN">
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:05:58 CST" name="browserInitialise" finished-at="2024-12-05T21:06:02 CST" duration-ms="3913" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:02 CST" name="PreExecutionModule" finished-at="2024-12-05T21:06:02 CST" duration-ms="356" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyTitleDisplayedTest()[pri:1, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:02 CST" name="verifyTitleDisplayedTest" finished-at="2024-12-05T21:06:02 CST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitleDisplayedTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:02 CST" name="browserQuit" finished-at="2024-12-05T21:06:03 CST" duration-ms="158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:03 CST" name="browserInitialise" finished-at="2024-12-05T21:06:06 CST" duration-ms="3767" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:06 CST" name="PreExecutionModule" finished-at="2024-12-05T21:06:07 CST" duration-ms="351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyLoginMainTitleTest()[pri:2, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:07 CST" name="verifyLoginMainTitleTest" finished-at="2024-12-05T21:06:07 CST" duration-ms="46" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginMainTitleTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:07 CST" name="browserQuit" finished-at="2024-12-05T21:06:07 CST" duration-ms="166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:07 CST" name="browserInitialise" finished-at="2024-12-05T21:06:12 CST" duration-ms="4345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:12 CST" name="PreExecutionModule" finished-at="2024-12-05T21:06:12 CST" duration-ms="356" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyLoginSubTitleTest()[pri:3, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:12 CST" name="verifyLoginSubTitleTest" finished-at="2024-12-05T21:06:12 CST" duration-ms="44" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginSubTitleTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:12 CST" name="browserQuit" finished-at="2024-12-05T21:06:13 CST" duration-ms="164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:13 CST" name="browserInitialise" finished-at="2024-12-05T21:06:20 CST" duration-ms="7288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:20 CST" name="PreExecutionModule" finished-at="2024-12-05T21:06:20 CST" duration-ms="368" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyLoginButtonWithoutAnyTest()[pri:4, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:20 CST" name="verifyLoginButtonWithoutAnyTest" finished-at="2024-12-05T21:06:21 CST" duration-ms="808" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginButtonWithoutAnyTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:21 CST" name="browserQuit" finished-at="2024-12-05T21:06:21 CST" duration-ms="153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:21 CST" name="browserInitialise" finished-at="2024-12-05T21:06:26 CST" duration-ms="4198" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:26 CST" name="PreExecutionModule" finished-at="2024-12-05T21:06:26 CST" duration-ms="378" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyLoginButtonWithEmailTest()[pri:5, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:26 CST" name="verifyLoginButtonWithEmailTest" finished-at="2024-12-05T21:06:27 CST" duration-ms="763" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginButtonWithEmailTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:27 CST" name="browserQuit" finished-at="2024-12-05T21:06:27 CST" duration-ms="168" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:27 CST" name="browserInitialise" finished-at="2024-12-05T21:06:31 CST" duration-ms="3979" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:31 CST" name="PreExecutionModule" finished-at="2024-12-05T21:06:32 CST" duration-ms="388" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyLoginButtonWithPasswordTest()[pri:6, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:32 CST" name="verifyLoginButtonWithPasswordTest" finished-at="2024-12-05T21:06:33 CST" duration-ms="984" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginButtonWithPasswordTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:33 CST" name="browserQuit" finished-at="2024-12-05T21:06:33 CST" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:33 CST" name="browserInitialise" finished-at="2024-12-05T21:06:37 CST" duration-ms="4000" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:37 CST" name="PreExecutionModule" finished-at="2024-12-05T21:06:38 CST" duration-ms="341" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PreExecutionModule -->
-        <test-method retried="true" signature="verifyLoginButtonWithInvalidDetailsTest()[pri:7, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:38 CST" name="verifyLoginButtonWithInvalidDetailsTest" finished-at="2024-12-05T21:06:38 CST" duration-ms="733" status="SKIP">
-          <exception class="java.lang.AssertionError">
+        <test-method retried="true" signature="verifyCheckOutFlowTest()[pri:2, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:26:36 CST" name="verifyCheckOutFlowTest" finished-at="2024-12-05T21:26:46 CST" duration-ms="9726" status="SKIP">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]]]>
+              <![CDATA[element click intercepted: Element <input type="checkbox" name="agree" value="1"> is not clickable at point (1093, 488). Other element would receive the click: <div class="panel-body">...</div>
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25b4255cfac300a5267ddb6ef9df0ce6, clickElement {id=f.3E3E7A910BFE410B78325910B10D94EE.d.46687799688109DB3FEDEE5437D520F5.e.295}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63075}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63075/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (25b4255cfac300a5267ddb6ef9df0ce6)] -> xpath: //input[@type='checkbox']]
+Session ID: 25b4255cfac300a5267ddb6ef9df0ce6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest(LoginTestTN.java:70)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="checkbox" name="agree" value="1"> is not clickable at point (1093, 488). Other element would receive the click: <div class="panel-body">...</div>
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25b4255cfac300a5267ddb6ef9df0ce6, clickElement {id=f.3E3E7A910BFE410B78325910B10D94EE.d.46687799688109DB3FEDEE5437D520F5.e.295}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63075}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63075/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (25b4255cfac300a5267ddb6ef9df0ce6)] -> xpath: //input[@type='checkbox']]
+Session ID: 25b4255cfac300a5267ddb6ef9df0ce6
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.utilities.UtilitiesTN.buttonClick(UtilitiesTN.java:33)
+at com.pages.CheckoutPageTN.verifytermsAndConditionPaymentMethodClick(CheckoutPageTN.java:125)
+at com.tests.CheckoutTestTN.verifyCheckOutFlowTest(CheckoutTestTN.java:57)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -255,799 +135,773 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginButtonWithInvalidDetailsTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:38 CST" name="browserQuit" finished-at="2024-12-05T21:06:39 CST" duration-ms="149" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:39 CST" name="browserInitialise" finished-at="2024-12-05T21:06:44 CST" duration-ms="5759" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:44 CST" name="PreExecutionModule" finished-at="2024-12-05T21:06:45 CST" duration-ms="347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PreExecutionModule -->
-        <test-method retried="true" signature="verifyLoginButtonWithInvalidDetailsTest()[pri:7, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:45 CST" name="verifyLoginButtonWithInvalidDetailsTest" finished-at="2024-12-05T21:06:45 CST" duration-ms="606" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest(LoginTestTN.java:70)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginButtonWithInvalidDetailsTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:45 CST" name="browserQuit" finished-at="2024-12-05T21:06:45 CST" duration-ms="161" status="PASS">
+        </test-method> <!-- verifyCheckOutFlowTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:26:46 CST" name="browserQuit" finished-at="2024-12-05T21:26:47 CST" duration-ms="813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:45 CST" name="browserInitialise" finished-at="2024-12-05T21:06:52 CST" duration-ms="6161" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:26:47 CST" name="browserInitialise" finished-at="2024-12-05T21:26:52 CST" duration-ms="5369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:52 CST" name="PreExecutionModule" finished-at="2024-12-05T21:06:52 CST" duration-ms="318" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:26:52 CST" name="PreExecutionModule" finished-at="2024-12-05T21:26:55 CST" duration-ms="2446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method retried="true" signature="verifyLoginButtonWithInvalidDetailsTest()[pri:7, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:52 CST" name="verifyLoginButtonWithInvalidDetailsTest" finished-at="2024-12-05T21:06:53 CST" duration-ms="628" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest(LoginTestTN.java:70)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyCheckOutFlowTest()[pri:2, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:26:55 CST" name="verifyCheckOutFlowTest" finished-at="2024-12-05T21:27:05 CST" duration-ms="10542" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginButtonWithInvalidDetailsTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:53 CST" name="browserQuit" finished-at="2024-12-05T21:06:53 CST" duration-ms="179" status="PASS">
+        </test-method> <!-- verifyCheckOutFlowTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.CheckoutTestTN@6cc4cdb9]" started-at="2024-12-05T21:27:06 CST" name="browserQuit" finished-at="2024-12-05T21:27:06 CST" duration-ms="682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:53 CST" name="browserInitialise" finished-at="2024-12-05T21:06:56 CST" duration-ms="3723" status="PASS">
+      </class> <!-- com.tests.CheckoutTestTN -->
+      <class name="com.tests.LogoutTestTN">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LogoutTestTN@5038d0b5]" started-at="2024-12-05T21:29:27 CST" name="browserInitialise" finished-at="2024-12-05T21:29:33 CST" duration-ms="6212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:56 CST" name="PreExecutionModule" finished-at="2024-12-05T21:06:57 CST" duration-ms="356" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LogoutTestTN@5038d0b5]" started-at="2024-12-05T21:29:33 CST" name="PreExecutionModule" finished-at="2024-12-05T21:29:34 CST" duration-ms="803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyLoginButtonWithInvalidDetailsTest()[pri:7, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:57 CST" name="verifyLoginButtonWithInvalidDetailsTest" finished-at="2024-12-05T21:06:57 CST" duration-ms="686" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.tests.LoginTestTN.verifyLoginButtonWithInvalidDetailsTest(LoginTestTN.java:70)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyTitleDisplayedTest(java.lang.String,java.lang.String)[pri:1, instance:com.tests.LogoutTestTN@5038d0b5]" started-at="2024-12-05T21:29:34 CST" name="verifyTitleDisplayedTest" data-provider="data" finished-at="2024-12-05T21:29:37 CST" duration-ms="3019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sundarakshayqq@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tutorialsninja@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginButtonWithInvalidDetailsTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:58 CST" name="browserQuit" finished-at="2024-12-05T21:06:58 CST" duration-ms="161" status="PASS">
+        </test-method> <!-- verifyTitleDisplayedTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LogoutTestTN@5038d0b5]" started-at="2024-12-05T21:29:38 CST" name="browserQuit" finished-at="2024-12-05T21:29:38 CST" duration-ms="746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:06:58 CST" name="browserInitialise" finished-at="2024-12-05T21:07:05 CST" duration-ms="7216" status="PASS">
+      </class> <!-- com.tests.LogoutTestTN -->
+      <class name="com.tests.LoginTestTN">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:02 CST" name="browserInitialise" finished-at="2024-12-05T21:23:07 CST" duration-ms="4920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:07:05 CST" name="PreExecutionModule" finished-at="2024-12-05T21:07:06 CST" duration-ms="354" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:07 CST" name="PreExecutionModule" finished-at="2024-12-05T21:23:07 CST" duration-ms="371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyLoginPageContinueButtonNavigationTest()[pri:8, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:07:06 CST" name="verifyLoginPageContinueButtonNavigationTest" finished-at="2024-12-05T21:07:07 CST" duration-ms="1471" status="PASS">
+        <test-method signature="verifyTitleDisplayedTest()[pri:1, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:07 CST" name="verifyTitleDisplayedTest" finished-at="2024-12-05T21:23:07 CST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleDisplayedTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:07 CST" name="browserQuit" finished-at="2024-12-05T21:23:08 CST" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:08 CST" name="browserInitialise" finished-at="2024-12-05T21:23:19 CST" duration-ms="11041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialise -->
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:19 CST" name="PreExecutionModule" finished-at="2024-12-05T21:23:20 CST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="verifyLoginMainTitleTest()[pri:2, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:20 CST" name="verifyLoginMainTitleTest" finished-at="2024-12-05T21:23:20 CST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginMainTitleTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:20 CST" name="browserQuit" finished-at="2024-12-05T21:23:22 CST" duration-ms="1628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:22 CST" name="browserInitialise" finished-at="2024-12-05T21:23:30 CST" duration-ms="7915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialise -->
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:30 CST" name="PreExecutionModule" finished-at="2024-12-05T21:23:30 CST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="verifyLoginSubTitleTest()[pri:3, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:30 CST" name="verifyLoginSubTitleTest" finished-at="2024-12-05T21:23:30 CST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSubTitleTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:30 CST" name="browserQuit" finished-at="2024-12-05T21:23:31 CST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:31 CST" name="browserInitialise" finished-at="2024-12-05T21:23:35 CST" duration-ms="4467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialise -->
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:35 CST" name="PreExecutionModule" finished-at="2024-12-05T21:23:36 CST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="verifyLoginButtonWithoutAnyTest()[pri:4, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:36 CST" name="verifyLoginButtonWithoutAnyTest" finished-at="2024-12-05T21:23:36 CST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonWithoutAnyTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:37 CST" name="browserQuit" finished-at="2024-12-05T21:23:37 CST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:37 CST" name="browserInitialise" finished-at="2024-12-05T21:23:42 CST" duration-ms="5565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialise -->
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:42 CST" name="PreExecutionModule" finished-at="2024-12-05T21:23:43 CST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="verifyLoginButtonWithEmailTest()[pri:5, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:43 CST" name="verifyLoginButtonWithEmailTest" finished-at="2024-12-05T21:23:45 CST" duration-ms="1756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonWithEmailTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:45 CST" name="browserQuit" finished-at="2024-12-05T21:23:47 CST" duration-ms="1940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:47 CST" name="browserInitialise" finished-at="2024-12-05T21:23:53 CST" duration-ms="6105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialise -->
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:53 CST" name="PreExecutionModule" finished-at="2024-12-05T21:23:53 CST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="verifyLoginButtonWithPasswordTest()[pri:6, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:53 CST" name="verifyLoginButtonWithPasswordTest" finished-at="2024-12-05T21:23:54 CST" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonWithPasswordTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:54 CST" name="browserQuit" finished-at="2024-12-05T21:23:55 CST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:55 CST" name="browserInitialise" finished-at="2024-12-05T21:23:59 CST" duration-ms="3985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialise -->
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:59 CST" name="PreExecutionModule" finished-at="2024-12-05T21:23:59 CST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="verifyLoginButtonWithInvalidDetailsTest()[pri:7, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:23:59 CST" name="verifyLoginButtonWithInvalidDetailsTest" finished-at="2024-12-05T21:24:00 CST" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonWithInvalidDetailsTest -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:24:00 CST" name="browserQuit" finished-at="2024-12-05T21:24:01 CST" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:24:01 CST" name="browserInitialise" finished-at="2024-12-05T21:24:09 CST" duration-ms="8243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialise -->
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:24:09 CST" name="PreExecutionModule" finished-at="2024-12-05T21:24:10 CST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreExecutionModule -->
+        <test-method signature="verifyLoginPageContinueButtonNavigationTest()[pri:8, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:24:10 CST" name="verifyLoginPageContinueButtonNavigationTest" finished-at="2024-12-05T21:24:11 CST" duration-ms="1107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageContinueButtonNavigationTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:07:07 CST" name="browserQuit" finished-at="2024-12-05T21:07:08 CST" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:24:11 CST" name="browserQuit" finished-at="2024-12-05T21:24:13 CST" duration-ms="1619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:07:08 CST" name="browserInitialise" finished-at="2024-12-05T21:07:11 CST" duration-ms="3672" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:24:13 CST" name="browserInitialise" finished-at="2024-12-05T21:24:25 CST" duration-ms="12465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:07:11 CST" name="PreExecutionModule" finished-at="2024-12-05T21:07:12 CST" duration-ms="339" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:24:25 CST" name="PreExecutionModule" finished-at="2024-12-05T21:24:26 CST" duration-ms="353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyLoginButtonWithAllDetailsTest()[pri:9, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:07:12 CST" name="verifyLoginButtonWithAllDetailsTest" finished-at="2024-12-05T21:07:13 CST" duration-ms="1421" status="PASS">
+        <test-method signature="verifyLoginButtonWithAllDetailsTest()[pri:9, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:24:26 CST" name="verifyLoginButtonWithAllDetailsTest" finished-at="2024-12-05T21:24:28 CST" duration-ms="2038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginButtonWithAllDetailsTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:07:13 CST" name="browserQuit" finished-at="2024-12-05T21:07:14 CST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.LoginTestTN@50029372]" started-at="2024-12-05T21:24:28 CST" name="browserQuit" finished-at="2024-12-05T21:24:29 CST" duration-ms="818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
       </class> <!-- com.tests.LoginTestTN -->
       <class name="com.tests.ProductReturnTestTN">
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:09:31 CST" name="browserInitialise" finished-at="2024-12-05T21:09:36 CST" duration-ms="5362" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:27:34 CST" name="browserInitialise" finished-at="2024-12-05T21:27:42 CST" duration-ms="8211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:09:36 CST" name="PreExecutionModule" finished-at="2024-12-05T21:09:38 CST" duration-ms="1490" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:27:42 CST" name="PreExecutionModule" finished-at="2024-12-05T21:27:45 CST" duration-ms="2205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyTitleDisplayedTest()[pri:1, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:09:38 CST" name="verifyTitleDisplayedTest" finished-at="2024-12-05T21:09:40 CST" duration-ms="2483" status="PASS">
+        <test-method signature="verifyTitleDisplayedTest()[pri:1, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:27:45 CST" name="verifyTitleDisplayedTest" finished-at="2024-12-05T21:27:47 CST" duration-ms="2045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleDisplayedTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:09:40 CST" name="browserQuit" finished-at="2024-12-05T21:09:41 CST" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:27:47 CST" name="browserQuit" finished-at="2024-12-05T21:27:48 CST" duration-ms="1434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:09:41 CST" name="browserInitialise" finished-at="2024-12-05T21:09:48 CST" duration-ms="6839" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:27:48 CST" name="browserInitialise" finished-at="2024-12-05T21:28:00 CST" duration-ms="11514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:09:48 CST" name="PreExecutionModule" finished-at="2024-12-05T21:09:49 CST" duration-ms="1550" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:28:00 CST" name="PreExecutionModule" finished-at="2024-12-05T21:28:02 CST" duration-ms="1759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyProductReturnTest()[pri:2, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:09:49 CST" name="verifyProductReturnTest" finished-at="2024-12-05T21:09:53 CST" duration-ms="3945" status="PASS">
+        <test-method signature="verifyProductReturnTest()[pri:2, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:28:02 CST" name="verifyProductReturnTest" finished-at="2024-12-05T21:28:06 CST" duration-ms="4380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductReturnTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:09:53 CST" name="browserQuit" finished-at="2024-12-05T21:09:54 CST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.ProductReturnTestTN@7f2cfe3f]" started-at="2024-12-05T21:28:06 CST" name="browserQuit" finished-at="2024-12-05T21:28:07 CST" duration-ms="944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
       </class> <!-- com.tests.ProductReturnTestTN -->
       <class name="com.tests.WishListTestTN">
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:07:55 CST" name="browserInitialise" finished-at="2024-12-05T21:07:59 CST" duration-ms="4792" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:25:27 CST" name="browserInitialise" finished-at="2024-12-05T21:25:32 CST" duration-ms="5366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:07:59 CST" name="PreExecutionModule" finished-at="2024-12-05T21:08:02 CST" duration-ms="2313" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:25:32 CST" name="PreExecutionModule" finished-at="2024-12-05T21:25:35 CST" duration-ms="2946" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyTitleDisplayedTest()[pri:1, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:02 CST" name="verifyTitleDisplayedTest" finished-at="2024-12-05T21:08:02 CST" duration-ms="454" status="PASS">
+        <test-method signature="verifyTitleDisplayedTest()[pri:1, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:25:35 CST" name="verifyTitleDisplayedTest" finished-at="2024-12-05T21:25:36 CST" duration-ms="494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleDisplayedTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:03 CST" name="browserQuit" finished-at="2024-12-05T21:08:03 CST" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:25:36 CST" name="browserQuit" finished-at="2024-12-05T21:25:36 CST" duration-ms="511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:03 CST" name="browserInitialise" finished-at="2024-12-05T21:08:11 CST" duration-ms="7824" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:25:36 CST" name="browserInitialise" finished-at="2024-12-05T21:25:43 CST" duration-ms="6869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:11 CST" name="PreExecutionModule" finished-at="2024-12-05T21:08:13 CST" duration-ms="2354" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:25:43 CST" name="PreExecutionModule" finished-at="2024-12-05T21:25:45 CST" duration-ms="2285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyWishListPageMainTitleTest()[pri:2, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:13 CST" name="verifyWishListPageMainTitleTest" finished-at="2024-12-05T21:08:13 CST" duration-ms="490" status="PASS">
+        <test-method signature="verifyWishListPageMainTitleTest()[pri:2, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:25:45 CST" name="verifyWishListPageMainTitleTest" finished-at="2024-12-05T21:25:46 CST" duration-ms="503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWishListPageMainTitleTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:14 CST" name="browserQuit" finished-at="2024-12-05T21:08:14 CST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:25:46 CST" name="browserQuit" finished-at="2024-12-05T21:25:47 CST" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:14 CST" name="browserInitialise" finished-at="2024-12-05T21:08:19 CST" duration-ms="4723" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:25:47 CST" name="browserInitialise" finished-at="2024-12-05T21:25:50 CST" duration-ms="3712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:19 CST" name="PreExecutionModule" finished-at="2024-12-05T21:08:21 CST" duration-ms="2038" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:25:50 CST" name="PreExecutionModule" finished-at="2024-12-05T21:25:53 CST" duration-ms="2298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyWishListPageSubTitleTest()[pri:3, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:21 CST" name="verifyWishListPageSubTitleTest" finished-at="2024-12-05T21:08:21 CST" duration-ms="526" status="PASS">
+        <test-method signature="verifyWishListPageSubTitleTest()[pri:3, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:25:53 CST" name="verifyWishListPageSubTitleTest" finished-at="2024-12-05T21:25:53 CST" duration-ms="473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWishListPageSubTitleTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:22 CST" name="browserQuit" finished-at="2024-12-05T21:08:22 CST" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:25:53 CST" name="browserQuit" finished-at="2024-12-05T21:25:54 CST" duration-ms="720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:22 CST" name="browserInitialise" finished-at="2024-12-05T21:08:27 CST" duration-ms="5639" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:25:54 CST" name="browserInitialise" finished-at="2024-12-05T21:25:58 CST" duration-ms="4193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:27 CST" name="PreExecutionModule" finished-at="2024-12-05T21:08:30 CST" duration-ms="2183" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:25:58 CST" name="PreExecutionModule" finished-at="2024-12-05T21:26:01 CST" duration-ms="3007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyAddToWishListTest()[pri:4, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:30 CST" name="verifyAddToWishListTest" finished-at="2024-12-05T21:08:31 CST" duration-ms="1808" status="PASS">
+        <test-method signature="verifyAddToWishListTest()[pri:4, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:26:01 CST" name="verifyAddToWishListTest" finished-at="2024-12-05T21:26:03 CST" duration-ms="1907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddToWishListTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:32 CST" name="browserQuit" finished-at="2024-12-05T21:08:32 CST" duration-ms="203" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:26:03 CST" name="browserQuit" finished-at="2024-12-05T21:26:04 CST" duration-ms="517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:32 CST" name="browserInitialise" finished-at="2024-12-05T21:08:36 CST" duration-ms="4031" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:26:04 CST" name="browserInitialise" finished-at="2024-12-05T21:26:08 CST" duration-ms="4752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:36 CST" name="PreExecutionModule" finished-at="2024-12-05T21:08:38 CST" duration-ms="2142" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:26:08 CST" name="PreExecutionModule" finished-at="2024-12-05T21:26:11 CST" duration-ms="2326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyAddToWishListRemoveTest()[pri:5, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:38 CST" name="verifyAddToWishListRemoveTest" finished-at="2024-12-05T21:08:42 CST" duration-ms="3332" status="PASS">
+        <test-method signature="verifyAddToWishListRemoveTest()[pri:5, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:26:11 CST" name="verifyAddToWishListRemoveTest" finished-at="2024-12-05T21:26:14 CST" duration-ms="3340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddToWishListRemoveTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:08:42 CST" name="browserQuit" finished-at="2024-12-05T21:08:42 CST" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.WishListTestTN@50f6ac94]" started-at="2024-12-05T21:26:14 CST" name="browserQuit" finished-at="2024-12-05T21:26:16 CST" duration-ms="1722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
       </class> <!-- com.tests.WishListTestTN -->
       <class name="com.tests.HomeTestTN">
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:14 CST" name="browserInitialise" finished-at="2024-12-05T21:07:18 CST" duration-ms="4646" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:24:29 CST" name="browserInitialise" finished-at="2024-12-05T21:24:36 CST" duration-ms="7770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:18 CST" name="PreExecutionModule" finished-at="2024-12-05T21:07:20 CST" duration-ms="1390" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:24:36 CST" name="PreExecutionModule" finished-at="2024-12-05T21:24:38 CST" duration-ms="1656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyItemCartScenarioEmptyTest()[pri:1, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:20 CST" name="verifyItemCartScenarioEmptyTest" finished-at="2024-12-05T21:07:20 CST" duration-ms="149" status="PASS">
+        <test-method signature="verifyItemCartScenarioEmptyTest()[pri:1, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:24:38 CST" name="verifyItemCartScenarioEmptyTest" finished-at="2024-12-05T21:24:38 CST" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyItemCartScenarioEmptyTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:20 CST" name="browserQuit" finished-at="2024-12-05T21:07:20 CST" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:24:38 CST" name="browserQuit" finished-at="2024-12-05T21:24:39 CST" duration-ms="887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:20 CST" name="browserInitialise" finished-at="2024-12-05T21:07:25 CST" duration-ms="4570" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:24:39 CST" name="browserInitialise" finished-at="2024-12-05T21:24:47 CST" duration-ms="7854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:25 CST" name="PreExecutionModule" finished-at="2024-12-05T21:07:26 CST" duration-ms="1408" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:24:47 CST" name="PreExecutionModule" finished-at="2024-12-05T21:24:49 CST" duration-ms="1875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyComponentDropDownTest()[pri:2, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:26 CST" name="verifyComponentDropDownTest" finished-at="2024-12-05T21:07:28 CST" duration-ms="1331" status="PASS">
+        <test-method signature="verifyComponentDropDownTest()[pri:2, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:24:49 CST" name="verifyComponentDropDownTest" finished-at="2024-12-05T21:24:50 CST" duration-ms="1338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyComponentDropDownTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:28 CST" name="browserQuit" finished-at="2024-12-05T21:07:28 CST" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:24:51 CST" name="browserQuit" finished-at="2024-12-05T21:24:52 CST" duration-ms="1202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:28 CST" name="browserInitialise" finished-at="2024-12-05T21:07:33 CST" duration-ms="4450" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:24:52 CST" name="browserInitialise" finished-at="2024-12-05T21:24:58 CST" duration-ms="6446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:33 CST" name="PreExecutionModule" finished-at="2024-12-05T21:07:34 CST" duration-ms="1400" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:24:58 CST" name="PreExecutionModule" finished-at="2024-12-05T21:25:02 CST" duration-ms="3325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyFeatureIphoneNavigationTest()[pri:3, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:34 CST" name="verifyFeatureIphoneNavigationTest" finished-at="2024-12-05T21:07:36 CST" duration-ms="1857" status="PASS">
+        <test-method signature="verifyFeatureIphoneNavigationTest()[pri:3, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:25:02 CST" name="verifyFeatureIphoneNavigationTest" finished-at="2024-12-05T21:25:05 CST" duration-ms="3568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFeatureIphoneNavigationTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:36 CST" name="browserQuit" finished-at="2024-12-05T21:07:37 CST" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:25:05 CST" name="browserQuit" finished-at="2024-12-05T21:25:06 CST" duration-ms="844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:37 CST" name="browserInitialise" finished-at="2024-12-05T21:07:43 CST" duration-ms="6847" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:25:06 CST" name="browserInitialise" finished-at="2024-12-05T21:25:12 CST" duration-ms="5523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:43 CST" name="PreExecutionModule" finished-at="2024-12-05T21:07:45 CST" duration-ms="1448" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:25:12 CST" name="PreExecutionModule" finished-at="2024-12-05T21:25:14 CST" duration-ms="2499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyInvalidsearchFeature()[pri:4, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:45 CST" name="verifyInvalidsearchFeature" finished-at="2024-12-05T21:07:46 CST" duration-ms="1115" status="PASS">
+        <test-method signature="verifyInvalidsearchFeature()[pri:4, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:25:14 CST" name="verifyInvalidsearchFeature" finished-at="2024-12-05T21:25:15 CST" duration-ms="999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidsearchFeature -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:46 CST" name="browserQuit" finished-at="2024-12-05T21:07:47 CST" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:25:16 CST" name="browserQuit" finished-at="2024-12-05T21:25:16 CST" duration-ms="612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:47 CST" name="browserInitialise" finished-at="2024-12-05T21:07:51 CST" duration-ms="4865" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:25:16 CST" name="browserInitialise" finished-at="2024-12-05T21:25:23 CST" duration-ms="6948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:51 CST" name="PreExecutionModule" finished-at="2024-12-05T21:07:53 CST" duration-ms="1382" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:25:23 CST" name="PreExecutionModule" finished-at="2024-12-05T21:25:25 CST" duration-ms="1685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyValidsearchFeature()[pri:5, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:53 CST" name="verifyValidsearchFeature" finished-at="2024-12-05T21:07:54 CST" duration-ms="1325" status="PASS">
+        <test-method signature="verifyValidsearchFeature()[pri:5, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:25:25 CST" name="verifyValidsearchFeature" finished-at="2024-12-05T21:25:26 CST" duration-ms="1219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidsearchFeature -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:07:54 CST" name="browserQuit" finished-at="2024-12-05T21:07:55 CST" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.HomeTestTN@e3b3b2f]" started-at="2024-12-05T21:25:26 CST" name="browserQuit" finished-at="2024-12-05T21:25:27 CST" duration-ms="559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
       </class> <!-- com.tests.HomeTestTN -->
       <class name="com.tests.ShoppingCartTestTN">
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:09:54 CST" name="browserInitialise" finished-at="2024-12-05T21:09:59 CST" duration-ms="5901" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:28:07 CST" name="browserInitialise" finished-at="2024-12-05T21:28:12 CST" duration-ms="4894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:09:59 CST" name="PreExecutionModule" finished-at="2024-12-05T21:10:06 CST" duration-ms="6376" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:28:12 CST" name="PreExecutionModule" finished-at="2024-12-05T21:28:17 CST" duration-ms="4935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyTitleDisplayedTest()[pri:1, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:10:06 CST" name="verifyTitleDisplayedTest" finished-at="2024-12-05T21:10:07 CST" duration-ms="699" status="PASS">
+        <test-method signature="verifyTitleDisplayedTest()[pri:1, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:28:17 CST" name="verifyTitleDisplayedTest" finished-at="2024-12-05T21:28:18 CST" duration-ms="709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleDisplayedTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:10:07 CST" name="browserQuit" finished-at="2024-12-05T21:10:07 CST" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:28:18 CST" name="browserQuit" finished-at="2024-12-05T21:28:23 CST" duration-ms="5289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:10:07 CST" name="browserInitialise" finished-at="2024-12-05T21:10:12 CST" duration-ms="5060" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:28:23 CST" name="browserInitialise" finished-at="2024-12-05T21:28:28 CST" duration-ms="4968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:10:12 CST" name="PreExecutionModule" finished-at="2024-12-05T21:10:17 CST" duration-ms="4556" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:28:28 CST" name="PreExecutionModule" finished-at="2024-12-05T21:28:34 CST" duration-ms="5995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyUpdateQuantityTest()[pri:2, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:10:17 CST" name="verifyUpdateQuantityTest" finished-at="2024-12-05T21:10:18 CST" duration-ms="1380" status="PASS">
+        <test-method signature="verifyUpdateQuantityTest()[pri:2, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:28:34 CST" name="verifyUpdateQuantityTest" finished-at="2024-12-05T21:28:36 CST" duration-ms="1590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUpdateQuantityTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:10:19 CST" name="browserQuit" finished-at="2024-12-05T21:10:19 CST" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:28:36 CST" name="browserQuit" finished-at="2024-12-05T21:28:37 CST" duration-ms="844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:10:19 CST" name="browserInitialise" finished-at="2024-12-05T21:10:23 CST" duration-ms="3908" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:28:37 CST" name="browserInitialise" finished-at="2024-12-05T21:28:43 CST" duration-ms="6427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:10:23 CST" name="PreExecutionModule" finished-at="2024-12-05T21:10:27 CST" duration-ms="4723" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:28:43 CST" name="PreExecutionModule" finished-at="2024-12-05T21:28:49 CST" duration-ms="5710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyEstimateShippingAndTexasTest()[pri:3, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:10:27 CST" name="verifyEstimateShippingAndTexasTest" finished-at="2024-12-05T21:10:46 CST" duration-ms="18437" status="PASS">
+        <test-method signature="verifyEstimateShippingAndTexasTest()[pri:3, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:28:49 CST" name="verifyEstimateShippingAndTexasTest" finished-at="2024-12-05T21:29:09 CST" duration-ms="20348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEstimateShippingAndTexasTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:10:46 CST" name="browserQuit" finished-at="2024-12-05T21:10:46 CST" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:29:10 CST" name="browserQuit" finished-at="2024-12-05T21:29:11 CST" duration-ms="1222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:10:46 CST" name="browserInitialise" finished-at="2024-12-05T21:10:51 CST" duration-ms="4375" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:29:11 CST" name="browserInitialise" finished-at="2024-12-05T21:29:19 CST" duration-ms="8140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:10:51 CST" name="PreExecutionModule" finished-at="2024-12-05T21:10:55 CST" duration-ms="4613" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:29:19 CST" name="PreExecutionModule" finished-at="2024-12-05T21:29:24 CST" duration-ms="5387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyCheckoutButtonTest()[pri:4, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:10:55 CST" name="verifyCheckoutButtonTest" finished-at="2024-12-05T21:10:56 CST" duration-ms="946" status="PASS">
+        <test-method signature="verifyCheckoutButtonTest()[pri:4, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:29:24 CST" name="verifyCheckoutButtonTest" finished-at="2024-12-05T21:29:26 CST" duration-ms="1069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckoutButtonTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:10:57 CST" name="browserQuit" finished-at="2024-12-05T21:10:57 CST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.ShoppingCartTestTN@1a5b6f42]" started-at="2024-12-05T21:29:26 CST" name="browserQuit" finished-at="2024-12-05T21:29:27 CST" duration-ms="1011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
       </class> <!-- com.tests.ShoppingCartTestTN -->
       <class name="com.tests.RegisterTestTN">
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:25 CST" name="browserInitialise" finished-at="2024-12-05T21:03:32 CST" duration-ms="6604" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:11 CST" name="browserInitialise" finished-at="2024-12-05T21:20:27 CST" duration-ms="15705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:32 CST" name="PreExecutionModule" finished-at="2024-12-05T21:03:34 CST" duration-ms="2042" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:27 CST" name="PreExecutionModule" finished-at="2024-12-05T21:20:29 CST" duration-ms="1855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyTitleDisplayedTest()[pri:1, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:34 CST" name="verifyTitleDisplayedTest" finished-at="2024-12-05T21:03:34 CST" duration-ms="37" status="PASS">
+        <test-method signature="verifyTitleDisplayedTest()[pri:1, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:29 CST" name="verifyTitleDisplayedTest" finished-at="2024-12-05T21:20:29 CST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleDisplayedTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:35 CST" name="browserQuit" finished-at="2024-12-05T21:03:35 CST" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:29 CST" name="browserQuit" finished-at="2024-12-05T21:20:32 CST" duration-ms="2479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:35 CST" name="browserInitialise" finished-at="2024-12-05T21:03:40 CST" duration-ms="5002" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:32 CST" name="browserInitialise" finished-at="2024-12-05T21:20:38 CST" duration-ms="6187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:40 CST" name="PreExecutionModule" finished-at="2024-12-05T21:03:42 CST" duration-ms="1820" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:38 CST" name="PreExecutionModule" finished-at="2024-12-05T21:20:39 CST" duration-ms="649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterAccountMainTitleTest()[pri:2, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:42 CST" name="verifyRegisterAccountMainTitleTest" finished-at="2024-12-05T21:03:42 CST" duration-ms="96" status="PASS">
+        <test-method signature="verifyRegisterAccountMainTitleTest()[pri:2, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:39 CST" name="verifyRegisterAccountMainTitleTest" finished-at="2024-12-05T21:20:39 CST" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccountMainTitleTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:42 CST" name="browserQuit" finished-at="2024-12-05T21:03:42 CST" duration-ms="279" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:39 CST" name="browserQuit" finished-at="2024-12-05T21:20:40 CST" duration-ms="486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:42 CST" name="browserInitialise" finished-at="2024-12-05T21:03:50 CST" duration-ms="7488" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:40 CST" name="browserInitialise" finished-at="2024-12-05T21:20:44 CST" duration-ms="4379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:50 CST" name="PreExecutionModule" finished-at="2024-12-05T21:03:51 CST" duration-ms="625" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:44 CST" name="PreExecutionModule" finished-at="2024-12-05T21:20:45 CST" duration-ms="931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterAccountSubTitleTest()[pri:3, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:51 CST" name="verifyRegisterAccountSubTitleTest" finished-at="2024-12-05T21:03:51 CST" duration-ms="51" status="PASS">
+        <test-method signature="verifyRegisterAccountSubTitleTest()[pri:3, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:45 CST" name="verifyRegisterAccountSubTitleTest" finished-at="2024-12-05T21:20:45 CST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccountSubTitleTest -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:51 CST" name="browserQuit" finished-at="2024-12-05T21:03:51 CST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:45 CST" name="browserQuit" finished-at="2024-12-05T21:20:46 CST" duration-ms="563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:51 CST" name="browserInitialise" finished-at="2024-12-05T21:03:58 CST" duration-ms="7109" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:46 CST" name="browserInitialise" finished-at="2024-12-05T21:20:51 CST" duration-ms="5069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:58 CST" name="PreExecutionModule" finished-at="2024-12-05T21:03:59 CST" duration-ms="753" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:51 CST" name="PreExecutionModule" finished-at="2024-12-05T21:20:51 CST" duration-ms="643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithoutAnyDetails()[pri:4, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:03:59 CST" name="verifyRegisterButtonWithoutAnyDetails" finished-at="2024-12-05T21:04:00 CST" duration-ms="1080" status="PASS">
+        <test-method signature="verifyRegisterButtonWithoutAnyDetails()[pri:4, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:51 CST" name="verifyRegisterButtonWithoutAnyDetails" finished-at="2024-12-05T21:20:52 CST" duration-ms="968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithoutAnyDetails -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:00 CST" name="browserQuit" finished-at="2024-12-05T21:04:01 CST" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:52 CST" name="browserQuit" finished-at="2024-12-05T21:20:54 CST" duration-ms="1734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:01 CST" name="browserInitialise" finished-at="2024-12-05T21:04:08 CST" duration-ms="7726" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:20:54 CST" name="browserInitialise" finished-at="2024-12-05T21:21:02 CST" duration-ms="7417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:08 CST" name="PreExecutionModule" finished-at="2024-12-05T21:04:10 CST" duration-ms="1522" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:02 CST" name="PreExecutionModule" finished-at="2024-12-05T21:21:02 CST" duration-ms="702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithFirstName()[pri:5, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:10 CST" name="verifyRegisterButtonWithFirstName" finished-at="2024-12-05T21:04:10 CST" duration-ms="640" status="PASS">
+        <test-method signature="verifyRegisterButtonWithFirstName()[pri:5, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:02 CST" name="verifyRegisterButtonWithFirstName" finished-at="2024-12-05T21:21:03 CST" duration-ms="1068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithFirstName -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:11 CST" name="browserQuit" finished-at="2024-12-05T21:04:11 CST" duration-ms="157" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:04 CST" name="browserQuit" finished-at="2024-12-05T21:21:04 CST" duration-ms="782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:11 CST" name="browserInitialise" finished-at="2024-12-05T21:04:16 CST" duration-ms="4874" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:04 CST" name="browserInitialise" finished-at="2024-12-05T21:21:11 CST" duration-ms="6521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:16 CST" name="PreExecutionModule" finished-at="2024-12-05T21:04:17 CST" duration-ms="1447" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:11 CST" name="PreExecutionModule" finished-at="2024-12-05T21:21:12 CST" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithLastName()[pri:6, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:17 CST" name="verifyRegisterButtonWithLastName" finished-at="2024-12-05T21:04:18 CST" duration-ms="755" status="PASS">
+        <test-method signature="verifyRegisterButtonWithLastName()[pri:6, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:12 CST" name="verifyRegisterButtonWithLastName" finished-at="2024-12-05T21:21:12 CST" duration-ms="827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithLastName -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:18 CST" name="browserQuit" finished-at="2024-12-05T21:04:19 CST" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:13 CST" name="browserQuit" finished-at="2024-12-05T21:21:13 CST" duration-ms="567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:19 CST" name="browserInitialise" finished-at="2024-12-05T21:04:23 CST" duration-ms="4637" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:13 CST" name="browserInitialise" finished-at="2024-12-05T21:21:19 CST" duration-ms="6180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:23 CST" name="PreExecutionModule" finished-at="2024-12-05T21:04:24 CST" duration-ms="704" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:19 CST" name="PreExecutionModule" finished-at="2024-12-05T21:21:21 CST" duration-ms="1488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithEmail()[pri:7, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:24 CST" name="verifyRegisterButtonWithEmail" finished-at="2024-12-05T21:04:25 CST" duration-ms="766" status="PASS">
+        <test-method signature="verifyRegisterButtonWithEmail()[pri:7, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:21 CST" name="verifyRegisterButtonWithEmail" finished-at="2024-12-05T21:21:22 CST" duration-ms="815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithEmail -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:25 CST" name="browserQuit" finished-at="2024-12-05T21:04:25 CST" duration-ms="146" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:22 CST" name="browserQuit" finished-at="2024-12-05T21:21:22 CST" duration-ms="440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:25 CST" name="browserInitialise" finished-at="2024-12-05T21:04:30 CST" duration-ms="4818" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:22 CST" name="browserInitialise" finished-at="2024-12-05T21:21:27 CST" duration-ms="4737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:30 CST" name="PreExecutionModule" finished-at="2024-12-05T21:04:32 CST" duration-ms="1769" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:27 CST" name="PreExecutionModule" finished-at="2024-12-05T21:21:29 CST" duration-ms="1761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithTelephone()[pri:8, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:32 CST" name="verifyRegisterButtonWithTelephone" finished-at="2024-12-05T21:04:32 CST" duration-ms="648" status="PASS">
+        <test-method signature="verifyRegisterButtonWithTelephone()[pri:8, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:29 CST" name="verifyRegisterButtonWithTelephone" finished-at="2024-12-05T21:21:29 CST" duration-ms="748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithTelephone -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:33 CST" name="browserQuit" finished-at="2024-12-05T21:04:33 CST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:30 CST" name="browserQuit" finished-at="2024-12-05T21:21:30 CST" duration-ms="436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:33 CST" name="browserInitialise" finished-at="2024-12-05T21:04:37 CST" duration-ms="4534" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:30 CST" name="browserInitialise" finished-at="2024-12-05T21:21:34 CST" duration-ms="4223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:37 CST" name="PreExecutionModule" finished-at="2024-12-05T21:04:39 CST" duration-ms="1534" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:34 CST" name="PreExecutionModule" finished-at="2024-12-05T21:21:35 CST" duration-ms="659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithPassword()[pri:9, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:39 CST" name="verifyRegisterButtonWithPassword" finished-at="2024-12-05T21:04:40 CST" duration-ms="615" status="PASS">
+        <test-method signature="verifyRegisterButtonWithPassword()[pri:9, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:35 CST" name="verifyRegisterButtonWithPassword" finished-at="2024-12-05T21:21:36 CST" duration-ms="685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithPassword -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:40 CST" name="browserQuit" finished-at="2024-12-05T21:04:40 CST" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:36 CST" name="browserQuit" finished-at="2024-12-05T21:21:37 CST" duration-ms="1492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:40 CST" name="browserInitialise" finished-at="2024-12-05T21:04:44 CST" duration-ms="3915" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:37 CST" name="browserInitialise" finished-at="2024-12-05T21:21:45 CST" duration-ms="7343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:44 CST" name="PreExecutionModule" finished-at="2024-12-05T21:04:46 CST" duration-ms="1586" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:45 CST" name="PreExecutionModule" finished-at="2024-12-05T21:21:45 CST" duration-ms="674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithConfirmPassword()[pri:10, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:46 CST" name="verifyRegisterButtonWithConfirmPassword" finished-at="2024-12-05T21:04:47 CST" duration-ms="808" status="PASS">
+        <test-method signature="verifyRegisterButtonWithConfirmPassword()[pri:10, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:45 CST" name="verifyRegisterButtonWithConfirmPassword" finished-at="2024-12-05T21:21:46 CST" duration-ms="845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithConfirmPassword -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:47 CST" name="browserQuit" finished-at="2024-12-05T21:04:47 CST" duration-ms="153" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:46 CST" name="browserQuit" finished-at="2024-12-05T21:21:47 CST" duration-ms="650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:47 CST" name="browserInitialise" finished-at="2024-12-05T21:04:51 CST" duration-ms="4454" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:47 CST" name="browserInitialise" finished-at="2024-12-05T21:21:53 CST" duration-ms="6328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:51 CST" name="PreExecutionModule" finished-at="2024-12-05T21:04:52 CST" duration-ms="395" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:53 CST" name="PreExecutionModule" finished-at="2024-12-05T21:21:55 CST" duration-ms="1500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithPrivacyPolicy()[pri:11, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:52 CST" name="verifyRegisterButtonWithPrivacyPolicy" finished-at="2024-12-05T21:04:54 CST" duration-ms="1717" status="PASS">
+        <test-method signature="verifyRegisterButtonWithPrivacyPolicy()[pri:11, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:55 CST" name="verifyRegisterButtonWithPrivacyPolicy" finished-at="2024-12-05T21:21:56 CST" duration-ms="1070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithPrivacyPolicy -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:54 CST" name="browserQuit" finished-at="2024-12-05T21:04:54 CST" duration-ms="149" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:56 CST" name="browserQuit" finished-at="2024-12-05T21:21:57 CST" duration-ms="607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:54 CST" name="browserInitialise" finished-at="2024-12-05T21:04:58 CST" duration-ms="4105" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:21:57 CST" name="browserInitialise" finished-at="2024-12-05T21:22:02 CST" duration-ms="5692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:04:58 CST" name="PreExecutionModule" finished-at="2024-12-05T21:05:00 CST" duration-ms="1773" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:02 CST" name="PreExecutionModule" finished-at="2024-12-05T21:22:03 CST" duration-ms="948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithoutFirstname()[pri:12, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:00 CST" name="verifyRegisterButtonWithoutFirstname" finished-at="2024-12-05T21:05:01 CST" duration-ms="1056" status="PASS">
+        <test-method signature="verifyRegisterButtonWithoutFirstname()[pri:12, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:03 CST" name="verifyRegisterButtonWithoutFirstname" finished-at="2024-12-05T21:22:04 CST" duration-ms="1213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithoutFirstname -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:01 CST" name="browserQuit" finished-at="2024-12-05T21:05:02 CST" duration-ms="160" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:05 CST" name="browserQuit" finished-at="2024-12-05T21:22:05 CST" duration-ms="447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:02 CST" name="browserInitialise" finished-at="2024-12-05T21:05:06 CST" duration-ms="4114" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:05 CST" name="browserInitialise" finished-at="2024-12-05T21:22:11 CST" duration-ms="5923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:06 CST" name="PreExecutionModule" finished-at="2024-12-05T21:05:07 CST" duration-ms="1602" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:11 CST" name="PreExecutionModule" finished-at="2024-12-05T21:22:12 CST" duration-ms="1412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithoutLastname()[pri:13, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:07 CST" name="verifyRegisterButtonWithoutLastname" finished-at="2024-12-05T21:05:08 CST" duration-ms="870" status="PASS">
+        <test-method signature="verifyRegisterButtonWithoutLastname()[pri:13, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:12 CST" name="verifyRegisterButtonWithoutLastname" finished-at="2024-12-05T21:22:13 CST" duration-ms="998" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithoutLastname -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:09 CST" name="browserQuit" finished-at="2024-12-05T21:05:09 CST" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:14 CST" name="browserQuit" finished-at="2024-12-05T21:22:14 CST" duration-ms="698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:09 CST" name="browserInitialise" finished-at="2024-12-05T21:05:13 CST" duration-ms="4601" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:14 CST" name="browserInitialise" finished-at="2024-12-05T21:22:19 CST" duration-ms="4318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:13 CST" name="PreExecutionModule" finished-at="2024-12-05T21:05:15 CST" duration-ms="1693" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:19 CST" name="PreExecutionModule" finished-at="2024-12-05T21:22:19 CST" duration-ms="716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithoutEmail()[pri:14, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:15 CST" name="verifyRegisterButtonWithoutEmail" finished-at="2024-12-05T21:05:16 CST" duration-ms="857" status="PASS">
+        <test-method signature="verifyRegisterButtonWithoutEmail()[pri:14, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:19 CST" name="verifyRegisterButtonWithoutEmail" finished-at="2024-12-05T21:22:20 CST" duration-ms="1134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithoutEmail -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:16 CST" name="browserQuit" finished-at="2024-12-05T21:05:17 CST" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:21 CST" name="browserQuit" finished-at="2024-12-05T21:22:21 CST" duration-ms="722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:17 CST" name="browserInitialise" finished-at="2024-12-05T21:05:23 CST" duration-ms="6936" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:21 CST" name="browserInitialise" finished-at="2024-12-05T21:22:25 CST" duration-ms="4138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:23 CST" name="PreExecutionModule" finished-at="2024-12-05T21:05:24 CST" duration-ms="698" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:25 CST" name="PreExecutionModule" finished-at="2024-12-05T21:22:27 CST" duration-ms="1537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithoutTelephone()[pri:15, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:24 CST" name="verifyRegisterButtonWithoutTelephone" finished-at="2024-12-05T21:05:25 CST" duration-ms="933" status="PASS">
+        <test-method signature="verifyRegisterButtonWithoutTelephone()[pri:15, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:27 CST" name="verifyRegisterButtonWithoutTelephone" finished-at="2024-12-05T21:22:28 CST" duration-ms="1064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithoutTelephone -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:25 CST" name="browserQuit" finished-at="2024-12-05T21:05:26 CST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:28 CST" name="browserQuit" finished-at="2024-12-05T21:22:29 CST" duration-ms="455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:26 CST" name="browserInitialise" finished-at="2024-12-05T21:05:30 CST" duration-ms="4706" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:29 CST" name="browserInitialise" finished-at="2024-12-05T21:22:33 CST" duration-ms="4178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:30 CST" name="PreExecutionModule" finished-at="2024-12-05T21:05:32 CST" duration-ms="1409" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:33 CST" name="PreExecutionModule" finished-at="2024-12-05T21:22:33 CST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithoutPassword()[pri:16, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:32 CST" name="verifyRegisterButtonWithoutPassword" finished-at="2024-12-05T21:05:33 CST" duration-ms="837" status="PASS">
+        <test-method signature="verifyRegisterButtonWithoutPassword()[pri:16, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:33 CST" name="verifyRegisterButtonWithoutPassword" finished-at="2024-12-05T21:22:35 CST" duration-ms="1388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithoutPassword -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:33 CST" name="browserQuit" finished-at="2024-12-05T21:05:33 CST" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:35 CST" name="browserQuit" finished-at="2024-12-05T21:22:35 CST" duration-ms="647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:33 CST" name="browserInitialise" finished-at="2024-12-05T21:05:37 CST" duration-ms="4098" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:35 CST" name="browserInitialise" finished-at="2024-12-05T21:22:40 CST" duration-ms="5041" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:37 CST" name="PreExecutionModule" finished-at="2024-12-05T21:05:39 CST" duration-ms="1795" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:40 CST" name="PreExecutionModule" finished-at="2024-12-05T21:22:42 CST" duration-ms="1413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithoutConfirmPassword()[pri:17, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:39 CST" name="verifyRegisterButtonWithoutConfirmPassword" finished-at="2024-12-05T21:05:40 CST" duration-ms="835" status="PASS">
+        <test-method signature="verifyRegisterButtonWithoutConfirmPassword()[pri:17, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:42 CST" name="verifyRegisterButtonWithoutConfirmPassword" finished-at="2024-12-05T21:22:43 CST" duration-ms="997" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithoutConfirmPassword -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:40 CST" name="browserQuit" finished-at="2024-12-05T21:05:40 CST" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:43 CST" name="browserQuit" finished-at="2024-12-05T21:22:43 CST" duration-ms="487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:40 CST" name="browserInitialise" finished-at="2024-12-05T21:05:47 CST" duration-ms="6288" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:43 CST" name="browserInitialise" finished-at="2024-12-05T21:22:48 CST" duration-ms="4389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:47 CST" name="PreExecutionModule" finished-at="2024-12-05T21:05:47 CST" duration-ms="646" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:48 CST" name="PreExecutionModule" finished-at="2024-12-05T21:22:49 CST" duration-ms="632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithoutPrivacyPolicy()[pri:18, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:47 CST" name="verifyRegisterButtonWithoutPrivacyPolicy" finished-at="2024-12-05T21:05:48 CST" duration-ms="890" status="PASS">
+        <test-method signature="verifyRegisterButtonWithoutPrivacyPolicy()[pri:18, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:49 CST" name="verifyRegisterButtonWithoutPrivacyPolicy" finished-at="2024-12-05T21:22:50 CST" duration-ms="1031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithoutPrivacyPolicy -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:49 CST" name="browserQuit" finished-at="2024-12-05T21:05:49 CST" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:50 CST" name="browserQuit" finished-at="2024-12-05T21:22:50 CST" duration-ms="542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:49 CST" name="browserInitialise" finished-at="2024-12-05T21:05:54 CST" duration-ms="4760" status="PASS">
+        <test-method is-config="true" signature="browserInitialise()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:50 CST" name="browserInitialise" finished-at="2024-12-05T21:22:58 CST" duration-ms="7389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialise -->
-        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:54 CST" name="PreExecutionModule" finished-at="2024-12-05T21:05:55 CST" duration-ms="1542" status="PASS">
+        <test-method is-config="true" signature="PreExecutionModule()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:58 CST" name="PreExecutionModule" finished-at="2024-12-05T21:22:58 CST" duration-ms="665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreExecutionModule -->
-        <test-method signature="verifyRegisterButtonWithAllDetails()[pri:19, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:55 CST" name="verifyRegisterButtonWithAllDetails" finished-at="2024-12-05T21:05:57 CST" duration-ms="2070" status="PASS">
+        <test-method signature="verifyRegisterButtonWithAllDetails()[pri:19, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:22:58 CST" name="verifyRegisterButtonWithAllDetails" finished-at="2024-12-05T21:23:01 CST" duration-ms="2349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterButtonWithAllDetails -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:05:58 CST" name="browserQuit" finished-at="2024-12-05T21:05:58 CST" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.tests.RegisterTestTN@4470fbd6]" started-at="2024-12-05T21:23:01 CST" name="browserQuit" finished-at="2024-12-05T21:23:02 CST" duration-ms="1141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->

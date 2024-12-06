@@ -4,29 +4,29 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="21.462">
+           time="23.716">
     <properties></properties>
 
 
 
             <testcase
-                name="verifyUpdateQuantityTest"
-                time="1.380"
+                name="verifyTitleDisplayedTest"
+                time="0.709"
                 classname="com.tests.ShoppingCartTestTN">
             </testcase>
             <testcase
-                name="verifyTitleDisplayedTest"
-                time="0.699"
+                name="verifyUpdateQuantityTest"
+                time="1.590"
                 classname="com.tests.ShoppingCartTestTN">
             </testcase>
             <testcase
                 name="verifyCheckoutButtonTest"
-                time="0.946"
+                time="1.069"
                 classname="com.tests.ShoppingCartTestTN">
             </testcase>
             <testcase
                 name="verifyEstimateShippingAndTexasTest"
-                time="18.437"
+                time="20.348"
                 classname="com.tests.ShoppingCartTestTN">
             </testcase>
 </testsuite>

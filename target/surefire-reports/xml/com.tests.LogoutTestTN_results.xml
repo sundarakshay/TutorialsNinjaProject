@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.305">
+           time="3.019">
     <properties></properties>
 
 
 
             <testcase
                 name="verifyTitleDisplayedTest"
-                time="2.305"
+                time="3.019"
                 classname="com.tests.LogoutTestTN">
             </testcase>
 </testsuite>

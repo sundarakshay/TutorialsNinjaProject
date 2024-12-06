@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.475">
+           time="1.748">
     <properties></properties>
 
 
 
             <testcase
                 name="verifyTitleDisplayedTest"
-                time="0.546"
+                time="0.610"
                 classname="com.tests.OrderHistoryTestTN">
             </testcase>
             <testcase
                 name="verifyOrderHistoryTest"
-                time="0.929"
+                time="1.138"
                 classname="com.tests.OrderHistoryTestTN">
             </testcase>
 </testsuite>

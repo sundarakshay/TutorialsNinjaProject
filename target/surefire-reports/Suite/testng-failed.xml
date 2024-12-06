@@ -6,14 +6,14 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="com.tests.LoginTestTN">
+      <class name="com.tests.CheckoutTestTN">
         <methods>
+          <include name="verifyCheckOutFlowTest"/>
           <include name="PreExecutionModule"/>
           <include name="browserInitialise"/>
           <include name="browserQuit"/>
-          <include name="verifyLoginButtonWithInvalidDetailsTest"/>
         </methods>
-      </class> <!-- com.tests.LoginTestTN -->
+      </class> <!-- com.tests.CheckoutTestTN -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -4,34 +4,34 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.777">
+           time="7.443">
     <properties></properties>
 
 
 
             <testcase
-                name="verifyValidsearchFeature"
-                time="1.325"
-                classname="com.tests.HomeTestTN">
-            </testcase>
-            <testcase
                 name="verifyInvalidsearchFeature"
-                time="1.115"
-                classname="com.tests.HomeTestTN">
-            </testcase>
-            <testcase
-                name="verifyItemCartScenarioEmptyTest"
-                time="0.149"
+                time="0.999"
                 classname="com.tests.HomeTestTN">
             </testcase>
             <testcase
                 name="verifyFeatureIphoneNavigationTest"
-                time="1.857"
+                time="3.568"
                 classname="com.tests.HomeTestTN">
             </testcase>
             <testcase
                 name="verifyComponentDropDownTest"
-                time="1.331"
+                time="1.338"
+                classname="com.tests.HomeTestTN">
+            </testcase>
+            <testcase
+                name="verifyItemCartScenarioEmptyTest"
+                time="0.319"
+                classname="com.tests.HomeTestTN">
+            </testcase>
+            <testcase
+                name="verifyValidsearchFeature"
+                time="1.219"
                 classname="com.tests.HomeTestTN">
             </testcase>
 </testsuite>
