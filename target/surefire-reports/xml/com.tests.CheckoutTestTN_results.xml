@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="14.637">
+    <properties></properties>
+
+
+
+            <testcase
+                name="verifyTitleDisplayedTest"
+                time="4.363"
+                classname="com.tests.CheckoutTestTN">
+            </testcase>
+            <testcase
+                name="verifyCheckOutFlowTest"
+                time="10.274"
+                classname="com.tests.CheckoutTestTN">
+            </testcase>
+</testsuite>

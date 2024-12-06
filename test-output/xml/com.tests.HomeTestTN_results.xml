@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.972">
+    <properties></properties>
+
+
+
+            <testcase
+                name="verifyInvalidsearchFeature"
+                time="1.083"
+                classname="com.tests.HomeTestTN">
+            </testcase>
+            <testcase
+                name="verifyFeatureIphoneNavigationTest"
+                time="2.100"
+                classname="com.tests.HomeTestTN">
+            </testcase>
+            <testcase
+                name="verifyComponentDropDownTest"
+                time="1.207"
+                classname="com.tests.HomeTestTN">
+            </testcase>
+            <testcase
+                name="verifyValidsearchFeature"
+                time="1.271"
+                classname="com.tests.HomeTestTN">
+            </testcase>
+            <testcase
+                name="verifyItemCartScenarioEmptyTest"
+                time="0.311"
+                classname="com.tests.HomeTestTN">
+            </testcase>
+</testsuite>

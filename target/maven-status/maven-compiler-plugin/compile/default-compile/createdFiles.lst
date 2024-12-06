@@ -1,0 +1,11 @@
+com\pages\ProductReturnPageTN.class
+com\pages\RegisterPageTN.class
+com\utilities\UtilitiesTN.class
+com\pages\WishListPageTN.class
+com\pages\LoginPageTN.class
+com\pages\LogoutPageTN.class
+com\pages\HomePageTN.class
+com\pages\OrderHistoryPageTN.class
+com\pages\CheckoutPageTN.class
+com\configurations\BaseTN.class
+com\utilities\ExtentReportGenerate.class

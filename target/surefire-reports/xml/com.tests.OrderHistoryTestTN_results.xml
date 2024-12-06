@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.475">
+    <properties></properties>
+
+
+
+            <testcase
+                name="verifyTitleDisplayedTest"
+                time="0.546"
+                classname="com.tests.OrderHistoryTestTN">
+            </testcase>
+            <testcase
+                name="verifyOrderHistoryTest"
+                time="0.929"
+                classname="com.tests.OrderHistoryTestTN">
+            </testcase>
+</testsuite>

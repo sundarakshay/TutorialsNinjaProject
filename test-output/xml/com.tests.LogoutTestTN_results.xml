@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.999">
+    <properties></properties>
+
+
+
+            <testcase
+                name="verifyTitleDisplayedTest"
+                time="2.999"
+                classname="com.tests.LogoutTestTN">
+            </testcase>
+</testsuite>

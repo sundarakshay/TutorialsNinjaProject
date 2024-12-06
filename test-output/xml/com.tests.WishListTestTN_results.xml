@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.097">
+    <properties></properties>
+
+
+
+            <testcase
+                name="verifyWishListPageSubTitleTest"
+                time="0.399"
+                classname="com.tests.WishListTestTN">
+            </testcase>
+            <testcase
+                name="verifyWishListPageMainTitleTest"
+                time="0.429"
+                classname="com.tests.WishListTestTN">
+            </testcase>
+            <testcase
+                name="verifyTitleDisplayedTest"
+                time="0.405"
+                classname="com.tests.WishListTestTN">
+            </testcase>
+            <testcase
+                name="verifyAddToWishListRemoveTest"
+                time="2.506"
+                classname="com.tests.WishListTestTN">
+            </testcase>
+            <testcase
+                name="verifyAddToWishListTest"
+                time="1.358"
+                classname="com.tests.WishListTestTN">
+            </testcase>
+</testsuite>

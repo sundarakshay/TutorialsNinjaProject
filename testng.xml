@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Listeners.TNListener"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.tests.BaseTestTN" />
+			<class name="com.tests.RegisterTestTN" />
+			<class name="com.tests.LoginTestTN" />
+			<class name="com.tests.HomeTestTN" />
+			<class name="com.tests.WishListTestTN" />
+			<class name="com.tests.CheckoutTestTN" />
+			<class name="com.tests.OrderHistoryTestTN" />
+			<class name="com.tests.ProductReturnTestTN" />
+			<class name="com.tests.ShoppingCartTestTN" />
+			<class name="com.tests.LogoutTestTN" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.122">
+    <properties></properties>
+
+
+
+            <testcase
+                name="verifyCheckoutButtonTest"
+                time="0.858"
+                classname="com.tests.ShoppingCartTestTN">
+            </testcase>
+            <testcase
+                name="verifyUpdateQuantityTest"
+                time="1.268"
+                classname="com.tests.ShoppingCartTestTN">
+            </testcase>
+            <testcase
+                name="verifyTitleDisplayedTest"
+                time="0.414"
+                classname="com.tests.ShoppingCartTestTN">
+            </testcase>
+            <testcase
+                name="verifyEstimateShippingAndTexasTest"
+                time="18.582"
+                classname="com.tests.ShoppingCartTestTN">
+            </testcase>
+</testsuite>
